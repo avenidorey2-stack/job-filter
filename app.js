@@ -1,171 +1,138 @@
-import { jsxDEV as _jsxDEV, Fragment as _Fragment } from "react/jsx-dev-runtime";
 const {
   useState,
   useMemo
 } = React;
 const P = {
-  search: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("circle", {
-      cx: "11",
-      cy: "11",
-      r: "8"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "m21 21-4.3-4.3"
-    }, void 0, false)]
-  }, void 0, true),
-  pin: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("path", {
-      d: "M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("circle", {
-      cx: "12",
-      cy: "10",
-      r: "3"
-    }, void 0, false)]
-  }, void 0, true),
-  send: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("path", {
-      d: "m22 2-7 20-4-9-9-4Z"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M22 2 11 13"
-    }, void 0, false)]
-  }, void 0, true),
-  clock: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("circle", {
-      cx: "12",
-      cy: "12",
-      r: "10"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M12 6v6l4 2"
-    }, void 0, false)]
-  }, void 0, true),
-  ok: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("circle", {
-      cx: "12",
-      cy: "12",
-      r: "10"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "m9 12 2 2 4-4"
-    }, void 0, false)]
-  }, void 0, true),
-  cal: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("rect", {
-      x: "3",
-      y: "4",
-      width: "18",
-      height: "18",
-      rx: "2"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M16 2v4M8 2v4M3 10h18"
-    }, void 0, false)]
-  }, void 0, true),
-  star: /*#__PURE__*/_jsxDEV("polygon", {
+  search: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("circle", {
+    cx: "11",
+    cy: "11",
+    r: "8"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "m21 21-4.3-4.3"
+  })),
+  pin: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"
+  }), /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "10",
+    r: "3"
+  })),
+  send: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "m22 2-7 20-4-9-9-4Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M22 2 11 13"
+  })),
+  clock: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "10"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 6v6l4 2"
+  })),
+  ok: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "12",
+    r: "10"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "m9 12 2 2 4-4"
+  })),
+  cal: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "3",
+    y: "4",
+    width: "18",
+    height: "18",
+    rx: "2"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M16 2v4M8 2v4M3 10h18"
+  })),
+  star: /*#__PURE__*/React.createElement("polygon", {
     points: "12 2 15.1 8.3 22 9.3 17 14.1 18.2 21 12 17.8 5.8 21 7 14.1 2 9.3 8.9 8.3"
-  }, void 0, false),
-  bell: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("path", {
-      d: "M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M10.3 21a2 2 0 0 0 3.4 0"
-    }, void 0, false)]
-  }, void 0, true),
-  gear: /*#__PURE__*/_jsxDEV("path", {
+  }),
+  bell: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M10.3 21a2 2 0 0 0 3.4 0"
+  })),
+  gear: /*#__PURE__*/React.createElement("path", {
     d: "M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3M1 14h6M9 8h6M17 16h6"
-  }, void 0, false),
-  file: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("path", {
-      d: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M14 2v6h6"
-    }, void 0, false)]
-  }, void 0, true),
-  x: /*#__PURE__*/_jsxDEV("path", {
+  }),
+  file: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M14 2v6h6"
+  })),
+  x: /*#__PURE__*/React.createElement("path", {
     d: "M18 6 6 18M6 6l12 12"
-  }, void 0, false),
-  user: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("circle", {
-      cx: "12",
-      cy: "8",
-      r: "4"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M4 21a8 8 0 0 1 16 0"
-    }, void 0, false)]
-  }, void 0, true),
-  brief: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("rect", {
-      x: "2",
-      y: "7",
-      width: "20",
-      height: "14",
-      rx: "2"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"
-    }, void 0, false)]
-  }, void 0, true),
-  code: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: /*#__PURE__*/_jsxDEV("path", {
-      d: "m16 18 6-6-6-6M8 6l-6 6 6 6"
-    }, void 0, false)
-  }, void 0, false),
-  back: /*#__PURE__*/_jsxDEV("path", {
+  }),
+  user: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("circle", {
+    cx: "12",
+    cy: "8",
+    r: "4"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M4 21a8 8 0 0 1 16 0"
+  })),
+  brief: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "2",
+    y: "7",
+    width: "20",
+    height: "14",
+    rx: "2"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"
+  })),
+  code: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "m16 18 6-6-6-6M8 6l-6 6 6 6"
+  })),
+  back: /*#__PURE__*/React.createElement("path", {
     d: "M19 12H5m7-7-7 7 7 7"
-  }, void 0, false),
-  mic: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("rect", {
-      x: "9",
-      y: "2",
-      width: "6",
-      height: "12",
-      rx: "3"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M5 10a7 7 0 0 0 14 0M12 17v5"
-    }, void 0, false)]
-  }, void 0, true),
-  bot: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("rect", {
-      x: "4",
-      y: "8",
-      width: "16",
-      height: "12",
-      rx: "3"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M12 8V4M9 14h.01M15 14h.01"
-    }, void 0, false)]
-  }, void 0, true),
-  lock: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("rect", {
-      x: "3",
-      y: "11",
-      width: "18",
-      height: "11",
-      rx: "2"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M7 11V7a5 5 0 0 1 10 0v4"
-    }, void 0, false)]
-  }, void 0, true),
-  mail: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("rect", {
-      x: "2",
-      y: "4",
-      width: "20",
-      height: "16",
-      rx: "2"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "m22 7-10 7L2 7"
-    }, void 0, false)]
-  }, void 0, true),
-  up: /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("path", {
-      d: "M12 15V3m-5 5 5-5 5 5"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("path", {
-      d: "M4 17v3h16v-3"
-    }, void 0, false)]
-  }, void 0, true)
+  }),
+  mic: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "9",
+    y: "2",
+    width: "6",
+    height: "12",
+    rx: "3"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5 10a7 7 0 0 0 14 0M12 17v5"
+  })),
+  bot: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "4",
+    y: "8",
+    width: "16",
+    height: "12",
+    rx: "3"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12 8V4M9 14h.01M15 14h.01"
+  })),
+  lock: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "3",
+    y: "11",
+    width: "18",
+    height: "11",
+    rx: "2"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7 11V7a5 5 0 0 1 10 0v4"
+  })),
+  mail: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("rect", {
+    x: "2",
+    y: "4",
+    width: "20",
+    height: "16",
+    rx: "2"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "m22 7-10 7L2 7"
+  })),
+  up: /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("path", {
+    d: "M12 15V3m-5 5 5-5 5 5"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M4 17v3h16v-3"
+  }))
 };
 const I = ({
   n,
   s = 20,
   c = ""
-}) => /*#__PURE__*/_jsxDEV("svg", {
+}) => /*#__PURE__*/React.createElement("svg", {
   className: c,
   width: s,
   height: s,
@@ -175,9 +142,8 @@ const I = ({
   strokeWidth: "2",
   strokeLinecap: "round",
   strokeLinejoin: "round",
-  "aria-hidden": "true",
-  children: P[n]
-}, void 0, false);
+  "aria-hidden": "true"
+}, P[n]);
 const JOBS = [{
   id: 1,
   t: "UI/UX Designer",
@@ -356,21 +322,20 @@ const statusLabel = {
 };
 const Logo = ({
   onClick
-}) => /*#__PURE__*/_jsxDEV("button", {
+}) => /*#__PURE__*/React.createElement("button", {
   onClick: onClick,
   className: "flex items-center gap-2 logo text-2xl font-bold",
-  "aria-label": "JOB-FILTER.COM home",
-  children: ["JOB-FILTER.COM", /*#__PURE__*/_jsxDEV(I, {
-    n: "search",
-    s: 26,
-    c: "text-[var(--accent)]"
-  }, void 0, false)]
-}, void 0, true);
+  "aria-label": "JOB-FILTER.COM home"
+}, "JOB-FILTER.COM", /*#__PURE__*/React.createElement(I, {
+  n: "search",
+  s: 26,
+  c: "text-[var(--accent)]"
+}));
 const Toggle = ({
   on,
   set,
   label
-}) => /*#__PURE__*/_jsxDEV("button", {
+}) => /*#__PURE__*/React.createElement("button", {
   role: "switch",
   "aria-checked": on,
   "aria-label": label,
@@ -378,44 +343,40 @@ const Toggle = ({
   className: "w-11 h-6 rounded-full relative border-[1.5px] border-[var(--line)]",
   style: {
     background: on ? "var(--accent)" : "var(--chip)"
-  },
-  children: /*#__PURE__*/_jsxDEV("span", {
-    className: "absolute top-[2px] w-4 h-4 rounded-full bg-white transition-all",
-    style: {
-      left: on ? "22px" : "3px"
-    }
-  }, void 0, false)
-}, void 0, false);
-const StarRow = () => /*#__PURE__*/_jsxDEV("span", {
-  className: "flex",
-  children: [0, 1, 2, 3, 4].map(i => /*#__PURE__*/_jsxDEV("svg", {
-    className: "shrink-0",
-    width: "13",
-    height: "13",
-    viewBox: "0 0 24 24",
-    fill: "currentColor",
-    "aria-hidden": "true",
-    children: /*#__PURE__*/_jsxDEV("polygon", {
-      points: "12 2 15.1 8.3 22 9.3 17 14.1 18.2 21 12 17.8 5.8 21 7 14.1 2 9.3 8.9 8.3"
-    }, void 0, false)
-  }, i, false))
-}, void 0, false);
+  }
+}, /*#__PURE__*/React.createElement("span", {
+  className: "absolute top-[2px] w-4 h-4 rounded-full bg-white transition-all",
+  style: {
+    left: on ? "22px" : "3px"
+  }
+}));
+const StarRow = () => /*#__PURE__*/React.createElement("span", {
+  className: "flex"
+}, [0, 1, 2, 3, 4].map(i => /*#__PURE__*/React.createElement("svg", {
+  key: i,
+  className: "shrink-0",
+  width: "13",
+  height: "13",
+  viewBox: "0 0 24 24",
+  fill: "currentColor",
+  "aria-hidden": "true"
+}, /*#__PURE__*/React.createElement("polygon", {
+  points: "12 2 15.1 8.3 22 9.3 17 14.1 18.2 21 12 17.8 5.8 21 7 14.1 2 9.3 8.9 8.3"
+}))));
 const Stars = ({
   m
-}) => /*#__PURE__*/_jsxDEV("span", {
+}) => /*#__PURE__*/React.createElement("span", {
   className: "relative inline-flex",
   style: {
     color: "var(--line)"
-  },
-  children: [/*#__PURE__*/_jsxDEV(StarRow, {}, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-    className: "absolute inset-y-0 left-0 overflow-hidden",
-    style: {
-      width: m + "%",
-      color: "#e8a317"
-    },
-    children: /*#__PURE__*/_jsxDEV(StarRow, {}, void 0, false)
-  }, void 0, false)]
-}, void 0, true);
+  }
+}, /*#__PURE__*/React.createElement(StarRow, null), /*#__PURE__*/React.createElement("span", {
+  className: "absolute inset-y-0 left-0 overflow-hidden",
+  style: {
+    width: m + "%",
+    color: "#e8a317"
+  }
+}, /*#__PURE__*/React.createElement(StarRow, null)));
 const MY = ["ux/ui design", "wireframing", "prototyping", "figma", "user research", "interaction design"];
 function explain(j) {
   const hits = j.skills.filter(s => MY.some(p => p.includes(s.toLowerCase()) || s.toLowerCase().includes(p))),
@@ -431,25 +392,22 @@ const burstPts = Array.from({
 }).join(" ");
 const Burst = ({
   m
-}) => /*#__PURE__*/_jsxDEV("span", {
+}) => /*#__PURE__*/React.createElement("span", {
   className: "relative inline-flex items-center justify-center shrink-0",
   style: {
     width: 48,
     height: 48
-  },
-  children: [/*#__PURE__*/_jsxDEV("svg", {
-    className: "absolute inset-0",
-    viewBox: "0 0 100 100",
-    "aria-hidden": "true",
-    children: /*#__PURE__*/_jsxDEV("polygon", {
-      points: burstPts,
-      fill: m >= 80 ? "#1a8f4c" : m >= 50 ? "#c96a00" : "#d62828"
-    }, void 0, false)
-  }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-    className: "relative text-white font-bold text-[.82rem] leading-none",
-    children: [m, "%"]
-  }, void 0, true)]
-}, void 0, true);
+  }
+}, /*#__PURE__*/React.createElement("svg", {
+  className: "absolute inset-0",
+  viewBox: "0 0 100 100",
+  "aria-hidden": "true"
+}, /*#__PURE__*/React.createElement("polygon", {
+  points: burstPts,
+  fill: m >= 80 ? "#1a8f4c" : m >= 50 ? "#c96a00" : "#d62828"
+})), /*#__PURE__*/React.createElement("span", {
+  className: "relative text-white font-bold text-[.82rem] leading-none"
+}, m, "%"));
 function Badge({
   m
 }) {
@@ -470,52 +428,44 @@ function Badge({
       document.removeEventListener("keydown", h);
     };
   }, [open]);
-  return /*#__PURE__*/_jsxDEV("span", {
+  return /*#__PURE__*/React.createElement("span", {
     ref: ref,
-    className: "relative inline-block align-middle " + (open ? "z-30" : ""),
-    children: [/*#__PURE__*/_jsxDEV("button", {
-      type: "button",
-      onClick: () => {
-        if (!open && ref.current) setRight(ref.current.getBoundingClientRect().left + 300 > window.innerWidth);
-        setOpen(!open);
-      },
-      "aria-expanded": open,
-      "aria-label": m + "% match. Show why",
-      title: "Why this match?",
-      className: "inline-flex items-center gap-2 rounded-full",
-      children: [/*#__PURE__*/_jsxDEV(Burst, {
-        m: m
-      }, void 0, false), /*#__PURE__*/_jsxDEV(Stars, {
-        m: m
-      }, void 0, false)]
-    }, void 0, true), open && j && /*#__PURE__*/_jsxDEV("div", {
-      role: "dialog",
-      "aria-label": "Why this match",
-      className: "card absolute top-full mt-2 z-30 w-72 max-w-[78vw] p-3 text-left text-sm font-normal shadow-xl " + (right ? "right-0" : "left-0"),
-      style: {
-        color: "var(--fg)"
-      },
-      children: [/*#__PURE__*/_jsxDEV("b", {
-        className: "text-base",
-        children: ["Why ", m, "%?"]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("ul", {
-        className: "mt-2 space-y-2",
-        children: explain(j).map(([ok, t], i) => /*#__PURE__*/_jsxDEV("li", {
-          className: "flex gap-2",
-          children: [/*#__PURE__*/_jsxDEV(I, {
-            n: ok ? "ok" : "clock",
-            s: 16,
-            c: "shrink-0 mt-0.5"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-            children: t
-          }, void 0, false)]
-        }, i, true))
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        className: "mut mt-3",
-        children: "Full matches add more to the score than partial ones."
-      }, void 0, false)]
-    }, void 0, true)]
-  }, void 0, true);
+    className: "relative inline-block align-middle " + (open ? "z-30" : "")
+  }, /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    onClick: () => {
+      if (!open && ref.current) setRight(ref.current.getBoundingClientRect().left + 300 > window.innerWidth);
+      setOpen(!open);
+    },
+    "aria-expanded": open,
+    "aria-label": m + "% match. Show why",
+    title: "Why this match?",
+    className: "inline-flex items-center gap-2 rounded-full"
+  }, /*#__PURE__*/React.createElement(Burst, {
+    m: m
+  }), /*#__PURE__*/React.createElement(Stars, {
+    m: m
+  })), open && j && /*#__PURE__*/React.createElement("div", {
+    role: "dialog",
+    "aria-label": "Why this match",
+    className: "card absolute top-full mt-2 z-30 w-72 max-w-[78vw] p-3 text-left text-sm font-normal shadow-xl " + (right ? "right-0" : "left-0"),
+    style: {
+      color: "var(--fg)"
+    }
+  }, /*#__PURE__*/React.createElement("b", {
+    className: "text-base"
+  }, "Why ", m, "%?"), /*#__PURE__*/React.createElement("ul", {
+    className: "mt-2 space-y-2"
+  }, explain(j).map(([ok, t], i) => /*#__PURE__*/React.createElement("li", {
+    key: i,
+    className: "flex gap-2"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: ok ? "ok" : "clock",
+    s: 16,
+    c: "shrink-0 mt-0.5"
+  }), /*#__PURE__*/React.createElement("span", null, t)))), /*#__PURE__*/React.createElement("p", {
+    className: "mut mt-3"
+  }, "Full matches add more to the score than partial ones.")));
 }
 function Modal({
   job,
@@ -530,76 +480,60 @@ function Modal({
     window.addEventListener("keydown", h);
     return () => window.removeEventListener("keydown", h);
   }, []);
-  return /*#__PURE__*/_jsxDEV("div", {
+  return /*#__PURE__*/React.createElement("div", {
     className: "fixed inset-0 z-50 flex items-center justify-center p-4",
     style: {
       background: "rgba(10,14,20,.6)"
     },
+    onClick: onClose
+  }, /*#__PURE__*/React.createElement("div", {
+    role: "dialog",
+    "aria-modal": "true",
+    className: "card max-w-lg w-full p-6 max-h-full overflow-auto",
+    onClick: e => e.stopPropagation()
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex justify-between items-start"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-lg font-semibold"
+  }, "JOB DETAILS"), /*#__PURE__*/React.createElement("button", {
     onClick: onClose,
-    children: /*#__PURE__*/_jsxDEV("div", {
-      role: "dialog",
-      "aria-modal": "true",
-      className: "card max-w-lg w-full p-6 max-h-full overflow-auto",
-      onClick: e => e.stopPropagation(),
-      children: [/*#__PURE__*/_jsxDEV("div", {
-        className: "flex justify-between items-start",
-        children: [/*#__PURE__*/_jsxDEV("h2", {
-          className: "text-lg font-semibold",
-          children: "JOB DETAILS"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-          onClick: onClose,
-          "aria-label": "Close",
-          children: /*#__PURE__*/_jsxDEV(I, {
-            n: "x"
-          }, void 0, false)
-        }, void 0, false)]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("h3", {
-        className: "text-3xl font-semibold mt-1",
-        children: [job.t, " at ", job.co]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-        className: "flex flex-wrap items-center gap-2 my-4 text-sm",
-        children: [/*#__PURE__*/_jsxDEV("span", {
-          className: "chip",
-          children: job.loc
-        }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-          className: "chip",
-          children: job.type
-        }, void 0, false), user && /*#__PURE__*/_jsxDEV(Badge, {
-          m: job.m
-        }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-          className: "chip",
-          children: job.pay
-        }, void 0, false)]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("h4", {
-        className: "font-semibold",
-        children: "Job Description"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        className: "mb-3",
-        children: job.d
-      }, void 0, false), /*#__PURE__*/_jsxDEV("h4", {
-        className: "font-semibold",
-        children: "Requirements"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("ul", {
-        className: "mb-4",
-        children: job.req.map(r => /*#__PURE__*/_jsxDEV("li", {
-          className: "flex gap-2 items-center",
-          children: [/*#__PURE__*/_jsxDEV(I, {
-            n: "ok",
-            s: 16,
-            c: "text-[var(--accent)]"
-          }, void 0, false), r]
-        }, r, true))
-      }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-        className: "flex gap-3",
-        children: /*#__PURE__*/_jsxDEV("button", {
-          className: "btn-y",
-          autoFocus: true,
-          onClick: onApply,
-          children: "APPLY NOW"
-        }, void 0, false)
-      }, void 0, false)]
-    }, void 0, true)
-  }, void 0, false);
+    "aria-label": "Close"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "x"
+  }))), /*#__PURE__*/React.createElement("h3", {
+    className: "text-3xl font-semibold mt-1"
+  }, job.t, " at ", job.co), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap items-center gap-2 my-4 text-sm"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "chip"
+  }, job.loc), /*#__PURE__*/React.createElement("span", {
+    className: "chip"
+  }, job.type), user && /*#__PURE__*/React.createElement(Badge, {
+    m: job.m
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "chip"
+  }, job.pay)), /*#__PURE__*/React.createElement("h4", {
+    className: "font-semibold"
+  }, "Job Description"), /*#__PURE__*/React.createElement("p", {
+    className: "mb-3"
+  }, job.d), /*#__PURE__*/React.createElement("h4", {
+    className: "font-semibold"
+  }, "Requirements"), /*#__PURE__*/React.createElement("ul", {
+    className: "mb-4"
+  }, job.req.map(r => /*#__PURE__*/React.createElement("li", {
+    key: r,
+    className: "flex gap-2 items-center"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "ok",
+    s: 16,
+    c: "text-[var(--accent)]"
+  }), r))), /*#__PURE__*/React.createElement("div", {
+    className: "flex gap-3"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn-y",
+    autoFocus: true,
+    onClick: onApply
+  }, "APPLY NOW"))));
 }
 function Home({
   go,
@@ -621,165 +555,128 @@ function Home({
     setN(3);
     setRes(r.length ? r : JOBS.slice().sort((a, b) => b.m - a.m));
   };
-  return /*#__PURE__*/_jsxDEV("div", {
-    className: "min-h-screen",
-    children: [/*#__PURE__*/_jsxDEV("header", {
-      className: "bar flex items-center justify-between px-5 py-3",
-      children: [/*#__PURE__*/_jsxDEV(Logo, {
-        onClick: () => setRes(null)
-      }, void 0, false), /*#__PURE__*/_jsxDEV("nav", {
-        className: "flex gap-2",
-        children: [user ? /*#__PURE__*/_jsxDEV("button", {
-          className: "btn-o",
-          onClick: () => go("app"),
-          children: "Dashboard"
-        }, void 0, false) : /*#__PURE__*/_jsxDEV("button", {
-          className: "btn-o",
-          onClick: () => go("signin"),
-          children: "Sign In"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-          className: "btn-o",
-          onClick: () => go("about"),
-          children: "About"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-          className: "btn-o",
-          onClick: () => go("help"),
-          children: "Help"
-        }, void 0, false)]
-      }, void 0, true)]
-    }, void 0, true), /*#__PURE__*/_jsxDEV("main", {
-      className: "max-w-2xl mx-auto px-4 pt-14 sm:pt-20 pb-16 text-center",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-4xl sm:text-6xl font-semibold text-balance leading-[1.05]",
-        children: "YOUR ALL-IN-ONE JOB SEARCH HUB"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        className: "text-lg mt-3 mb-10",
-        children: "Filter. Match. Apply. Simple as that!"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("form", {
-        onSubmit: find,
-        className: "card flex flex-wrap items-stretch overflow-hidden text-left shadow-lg",
-        style: {
-          borderColor: "var(--accent)",
-          borderWidth: 2
-        },
-        children: [/*#__PURE__*/_jsxDEV("label", {
-          className: "flex items-center gap-2 px-3 flex-1 min-w-[10rem]",
-          children: [/*#__PURE__*/_jsxDEV("span", {
-            className: "sr-only",
-            children: "Job title"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("input", {
-            className: "w-full py-3 bg-transparent outline-none",
-            placeholder: "Job Title, Keywords...",
-            value: q,
-            onChange: e => setQ(e.target.value)
-          }, void 0, false), /*#__PURE__*/_jsxDEV(I, {
-            n: "search",
-            s: 18,
-            c: "mut"
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("label", {
-          className: "flex items-center gap-2 px-3 flex-1 min-w-[9rem] border-l border-[var(--line)]",
-          children: [/*#__PURE__*/_jsxDEV(I, {
-            n: "pin",
-            s: 18,
-            c: "mut"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-            className: "sr-only",
-            children: "Location"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("input", {
-            className: "w-full py-3 bg-transparent outline-none",
-            placeholder: "Location...",
-            value: l,
-            onChange: e => setL(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-          type: "submit",
-          className: "btn-y m-1.5",
-          children: "FIND MATCHED JOBS"
-        }, void 0, false)]
-      }, void 0, true), !res ? /*#__PURE__*/_jsxDEV("div", {
-        className: "mt-12",
-        children: [/*#__PURE__*/_jsxDEV("div", {
-          className: "inline-flex p-6 card",
-          children: /*#__PURE__*/_jsxDEV(I, {
-            n: "search",
-            s: 56,
-            c: "text-[var(--accent)]"
-          }, void 0, false)
-        }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-          className: "mt-4 text-lg font-medium",
-          children: "Find the right jobs with the click of a button!"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-          className: "mut",
-          children: "Matches will appear here"
-        }, void 0, false)]
-      }, void 0, true) : /*#__PURE__*/_jsxDEV("section", {
-        className: "mt-6 text-left",
-        children: [/*#__PURE__*/_jsxDEV("h2", {
-          className: "text-xl font-semibold mb-2",
-          children: ["MATCHED JOBS (", res.length, ")"]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          className: "space-y-3",
-          children: res.slice(0, n).map(j => /*#__PURE__*/_jsxDEV("div", {
-            className: "card p-4 flex items-center justify-between gap-3 transition hover:shadow-md",
-            children: [/*#__PURE__*/_jsxDEV("div", {
-              children: [/*#__PURE__*/_jsxDEV("div", {
-                className: "flex items-center gap-2 flex-wrap",
-                children: [/*#__PURE__*/_jsxDEV("span", {
-                  className: "text-xl font-semibold",
-                  children: j.t
-                }, void 0, false), user ? /*#__PURE__*/_jsxDEV(Badge, {
-                  m: j.m
-                }, void 0, false) : /*#__PURE__*/_jsxDEV("button", {
-                  className: "lnk text-sm",
-                  onClick: () => go("signin"),
-                  children: "Sign in to see your match"
-                }, void 0, false)]
-              }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-                className: "mut text-sm",
-                children: j.co
-              }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-                className: "text-sm",
-                children: [j.loc, j.loc === "Chicago" ? " (Hybrid)" : "", " • ", j.type]
-              }, void 0, true)]
-            }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-              className: "btn-o",
-              onClick: () => openJob(j),
-              children: "View"
-            }, void 0, false)]
-          }, j.id, true))
-        }, void 0, false), n < res.length && /*#__PURE__*/_jsxDEV("div", {
-          className: "text-center mt-4",
-          children: /*#__PURE__*/_jsxDEV("button", {
-            className: "btn-o",
-            onClick: () => setN(n + 3),
-            children: "Load More"
-          }, void 0, false)
-        }, void 0, false)]
-      }, void 0, true)]
-    }, void 0, true)]
-  }, void 0, true);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "min-h-screen"
+  }, /*#__PURE__*/React.createElement("header", {
+    className: "bar flex items-center justify-between px-5 py-3"
+  }, /*#__PURE__*/React.createElement(Logo, {
+    onClick: () => setRes(null)
+  }), /*#__PURE__*/React.createElement("nav", {
+    className: "flex gap-2"
+  }, user ? /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => go("app")
+  }, "Dashboard") : /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => go("signin")
+  }, "Sign In"), /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => go("about")
+  }, "About"), /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => go("help")
+  }, "Help"))), /*#__PURE__*/React.createElement("main", {
+    className: "max-w-2xl mx-auto px-4 pt-14 sm:pt-20 pb-16 text-center"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-4xl sm:text-6xl font-semibold text-balance leading-[1.05]"
+  }, "YOUR ALL-IN-ONE JOB SEARCH HUB"), /*#__PURE__*/React.createElement("p", {
+    className: "text-lg mt-3 mb-10"
+  }, "Filter. Match. Apply. Simple as that!"), /*#__PURE__*/React.createElement("form", {
+    onSubmit: find,
+    className: "card flex flex-wrap items-stretch overflow-hidden text-left shadow-lg",
+    style: {
+      borderColor: "var(--accent)",
+      borderWidth: 2
+    }
+  }, /*#__PURE__*/React.createElement("label", {
+    className: "flex items-center gap-2 px-3 flex-1 min-w-[10rem]"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "sr-only"
+  }, "Job title"), /*#__PURE__*/React.createElement("input", {
+    className: "w-full py-3 bg-transparent outline-none",
+    placeholder: "Job Title, Keywords...",
+    value: q,
+    onChange: e => setQ(e.target.value)
+  }), /*#__PURE__*/React.createElement(I, {
+    n: "search",
+    s: 18,
+    c: "mut"
+  })), /*#__PURE__*/React.createElement("label", {
+    className: "flex items-center gap-2 px-3 flex-1 min-w-[9rem] border-l border-[var(--line)]"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "pin",
+    s: 18,
+    c: "mut"
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "sr-only"
+  }, "Location"), /*#__PURE__*/React.createElement("input", {
+    className: "w-full py-3 bg-transparent outline-none",
+    placeholder: "Location...",
+    value: l,
+    onChange: e => setL(e.target.value)
+  })), /*#__PURE__*/React.createElement("button", {
+    type: "submit",
+    className: "btn-y m-1.5"
+  }, "FIND MATCHED JOBS")), !res ? /*#__PURE__*/React.createElement("div", {
+    className: "mt-12"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "inline-flex p-6 card"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "search",
+    s: 56,
+    c: "text-[var(--accent)]"
+  })), /*#__PURE__*/React.createElement("p", {
+    className: "mt-4 text-lg font-medium"
+  }, "Find the right jobs with the click of a button!"), /*#__PURE__*/React.createElement("p", {
+    className: "mut"
+  }, "Matches will appear here")) : /*#__PURE__*/React.createElement("section", {
+    className: "mt-6 text-left"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-xl font-semibold mb-2"
+  }, "MATCHED JOBS (", res.length, ")"), /*#__PURE__*/React.createElement("div", {
+    className: "space-y-3"
+  }, res.slice(0, n).map(j => /*#__PURE__*/React.createElement("div", {
+    key: j.id,
+    className: "card p-4 flex items-center justify-between gap-3 transition hover:shadow-md"
+  }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center gap-2 flex-wrap"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "text-xl font-semibold"
+  }, j.t), user ? /*#__PURE__*/React.createElement(Badge, {
+    m: j.m
+  }) : /*#__PURE__*/React.createElement("button", {
+    className: "lnk text-sm",
+    onClick: () => go("signin")
+  }, "Sign in to see your match")), /*#__PURE__*/React.createElement("div", {
+    className: "mut text-sm"
+  }, j.co), /*#__PURE__*/React.createElement("div", {
+    className: "text-sm"
+  }, j.loc, j.loc === "Chicago" ? " (Hybrid)" : "", " • ", j.type)), /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => openJob(j)
+  }, "View")))), n < res.length && /*#__PURE__*/React.createElement("div", {
+    className: "text-center mt-4"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => setN(n + 3)
+  }, "Load More")))));
 }
 function Shell({
   children,
   children2,
   go
 }) {
-  return /*#__PURE__*/_jsxDEV("div", {
-    className: "min-h-screen",
-    children: [/*#__PURE__*/_jsxDEV("div", {
-      className: "max-w-4xl mx-auto px-4 pt-4",
-      children: /*#__PURE__*/_jsxDEV("div", {
-        className: "flex items-center justify-between",
-        children: /*#__PURE__*/_jsxDEV(Logo, {
-          onClick: () => go("home")
-        }, void 0, false)
-      }, void 0, false)
-    }, void 0, false), /*#__PURE__*/_jsxDEV("main", {
-      className: "px-4 py-6",
-      children: children
-    }, void 0, false)]
-  }, void 0, true);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "min-h-screen"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "max-w-4xl mx-auto px-4 pt-4"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center justify-between"
+  }, /*#__PURE__*/React.createElement(Logo, {
+    onClick: () => go("home")
+  }))), /*#__PURE__*/React.createElement("main", {
+    className: "px-4 py-6"
+  }, children));
 }
 function Auth({
   page,
@@ -799,269 +696,212 @@ function Auth({
     setErr("");
   }, [page]);
   const target = job ? `${job.t} position at ${job.co}` : "the position";
-  const back = /*#__PURE__*/_jsxDEV("button", {
+  const back = /*#__PURE__*/React.createElement("button", {
     className: "mt-5 flex items-center gap-1 mx-auto",
-    onClick: () => go("home"),
-    children: [/*#__PURE__*/_jsxDEV(I, {
-      n: "back",
-      s: 16
-    }, void 0, false), " Go Back to Matches"]
-  }, void 0, true);
+    onClick: () => go("home")
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "back",
+    s: 16
+  }), " Go Back to Matches");
   const box = "card max-w-sm mx-auto p-5 ";
-  if (page === "signin") return /*#__PURE__*/_jsxDEV(Shell, {
-    go: go,
-    children: /*#__PURE__*/_jsxDEV("div", {
-      className: "text-center",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-4xl font-semibold",
-        children: "SIGN IN TO YOUR ACCOUNT"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        className: "mb-4",
-        children: ["You’re one step away! Please sign in to apply for the ", target, "."]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("form", {
-        className: box + "text-left",
-        onSubmit: e => {
-          e.preventDefault();
-          if (!email || !pw) return setErr("Enter your email and password.");
-          setUser(true);
-          go("app");
-        },
-        children: [/*#__PURE__*/_jsxDEV("h2", {
-          className: "text-center text-xl font-semibold mb-2",
-          children: "SIGN IN"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("label", {
-          className: "block",
-          children: ["Email Address", /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            type: "email",
-            value: email,
-            onChange: e => setEmail(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("label", {
-          className: "block mt-2",
-          children: ["Password", /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            type: "password",
-            value: pw,
-            onChange: e => setPw(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), err && /*#__PURE__*/_jsxDEV("p", {
-          role: "alert",
-          className: "text-sm mt-1",
-          style: {
-            color: "#d64545"
-          },
-          children: err
-        }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-          className: "flex justify-between text-sm my-3",
-          children: [/*#__PURE__*/_jsxDEV("label", {
-            className: "flex gap-1 items-center",
-            children: [/*#__PURE__*/_jsxDEV("input", {
-              type: "checkbox",
-              checked: rem,
-              onChange: e => setRem(e.target.checked)
-            }, void 0, false), "Remember me"]
-          }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-            type: "button",
-            className: "lnk",
-            onClick: () => go("reset"),
-            children: "Forgot password?"
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          className: "text-center",
-          children: /*#__PURE__*/_jsxDEV("button", {
-            className: "btn px-8",
-            type: "submit",
-            children: "SIGN IN"
-          }, void 0, false)
-        }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-          className: "text-center text-sm mt-3",
-          children: ["Don’t have an account? ", /*#__PURE__*/_jsxDEV("button", {
-            type: "button",
-            className: "lnk",
-            onClick: () => go("create"),
-            children: "Create an account"
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true), back]
-    }, void 0, true)
-  }, void 0, false);
-  if (page === "reset") return /*#__PURE__*/_jsxDEV(Shell, {
-    go: go,
-    children: /*#__PURE__*/_jsxDEV("div", {
-      className: "text-center",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-4xl font-semibold",
-        children: "RESET YOUR PASSWORD"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        className: "mb-4",
-        children: "Enter your email address and we will send you a link to reset your password."
-      }, void 0, false), /*#__PURE__*/_jsxDEV("form", {
-        className: box + "text-left",
-        onSubmit: e => {
-          e.preventDefault();
-          go("resetSent", {
-            re
-          });
-        },
-        children: [/*#__PURE__*/_jsxDEV("label", {
-          className: "block mut",
-          children: ["Email Address", /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            type: "email",
-            value: re,
-            onChange: e => setRe(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          className: "text-center mt-5",
-          children: /*#__PURE__*/_jsxDEV("button", {
-            className: "btn",
-            type: "submit",
-            children: "SEND RESET LINK"
-          }, void 0, false)
-        }, void 0, false)]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-        className: "mt-5 flex items-center gap-1 mx-auto",
-        onClick: () => go("signin"),
-        children: [/*#__PURE__*/_jsxDEV(I, {
-          n: "back",
-          s: 16
-        }, void 0, false), " Back to Sign In"]
-      }, void 0, true)]
-    }, void 0, true)
-  }, void 0, false);
-  if (page === "resetSent") return /*#__PURE__*/_jsxDEV(Shell, {
-    go: go,
-    children: /*#__PURE__*/_jsxDEV("div", {
-      className: "text-center",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-4xl font-semibold",
-        children: "PASSWORD RESET LINK SENT!"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        children: ["A link to reset your password has been sent to ", re, "."]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("p", {
-        className: "mb-4",
-        children: "Please check your inbox and spam folder. If you don’t receive it shortly, you can try again."
-      }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-        className: box + "py-12",
-        children: ["Reset link sent to:", /*#__PURE__*/_jsxDEV("br", {}, void 0, false), re]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-        className: "mt-5 flex items-center gap-1 mx-auto",
-        onClick: () => go("signin"),
-        children: [/*#__PURE__*/_jsxDEV(I, {
-          n: "back",
-          s: 16
-        }, void 0, false), " Back to Sign In"]
-      }, void 0, true)]
-    }, void 0, true)
-  }, void 0, false);
-  if (page === "create") return /*#__PURE__*/_jsxDEV(Shell, {
-    go: go,
-    children: /*#__PURE__*/_jsxDEV("div", {
-      className: "text-center",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-4xl font-semibold",
-        children: "CREATE YOUR ACCOUNT"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        className: "mb-4",
-        children: ["Create your account to apply for the ", target, "."]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("form", {
-        className: box + "text-left",
-        onSubmit: e => {
-          e.preventDefault();
-          if (!nm || !email) return setErr("Enter your name and email.");
-          if (pw.length < 6 || pw !== p2) return setErr("Passwords must match and be at least 6 characters.");
-          setErr("");
-          go("success");
-        },
-        children: [/*#__PURE__*/_jsxDEV("h2", {
-          className: "text-center text-xl font-semibold mb-2",
-          children: "CREATE AN ACCOUNT"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("label", {
-          className: "block",
-          children: ["Full Name", /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            value: nm,
-            onChange: e => setNm(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("label", {
-          className: "block mt-2",
-          children: ["Email Address", /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            type: "email",
-            value: email,
-            onChange: e => setEmail(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("label", {
-          className: "block mt-2",
-          children: ["Password", /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            type: "password",
-            value: pw,
-            onChange: e => setPw(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("label", {
-          className: "block mt-2",
-          children: ["Confirm Password", /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            type: "password",
-            value: p2,
-            onChange: e => setP2(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), err && /*#__PURE__*/_jsxDEV("p", {
-          role: "alert",
-          className: "text-sm mt-2",
-          style: {
-            color: "#d64545"
-          },
-          children: err
-        }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-          className: "btn w-full mt-4",
-          type: "submit",
-          children: "CREATE ACCOUNT"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-          className: "text-sm mt-3",
-          children: ["Already have an account? ", /*#__PURE__*/_jsxDEV("button", {
-            type: "button",
-            className: "lnk",
-            onClick: () => go("signin"),
-            children: "Sign In"
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true), back]
-    }, void 0, true)
-  }, void 0, false);
-  return /*#__PURE__*/_jsxDEV(Shell, {
-    go: go,
-    children: /*#__PURE__*/_jsxDEV("div", {
-      className: box + "text-center",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-5xl font-bold",
-        children: "SUCCESS!"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("h2", {
-        className: "text-2xl font-semibold",
-        children: "Account Created!"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-        className: "my-5 inline-flex text-[var(--accent)]",
-        children: /*#__PURE__*/_jsxDEV(I, {
-          n: "ok",
-          s: 72
-        }, void 0, false)
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        children: ["Verification link sent to:", /*#__PURE__*/_jsxDEV("br", {}, void 0, false), email || "user@example.com"]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("p", {
-        className: "mt-3",
-        children: ["Next: Complete your ", job ? `${job.t} application profile at ${job.co}` : "application profile", "."]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-        className: "btn mt-4",
-        onClick: () => {
-          setUser(true);
-          go("app");
-        },
-        children: "BEGIN APPLICATION"
-      }, void 0, false), back]
-    }, void 0, true)
-  }, void 0, false);
+  if (page === "signin") return /*#__PURE__*/React.createElement(Shell, {
+    go: go
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-4xl font-semibold"
+  }, "SIGN IN TO YOUR ACCOUNT"), /*#__PURE__*/React.createElement("p", {
+    className: "mb-4"
+  }, "You’re one step away! Please sign in to apply for the ", target, "."), /*#__PURE__*/React.createElement("form", {
+    className: box + "text-left",
+    onSubmit: e => {
+      e.preventDefault();
+      if (!email || !pw) return setErr("Enter your email and password.");
+      setUser(true);
+      go("app");
+    }
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-center text-xl font-semibold mb-2"
+  }, "SIGN IN"), /*#__PURE__*/React.createElement("label", {
+    className: "block"
+  }, "Email Address", /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    type: "email",
+    value: email,
+    onChange: e => setEmail(e.target.value)
+  })), /*#__PURE__*/React.createElement("label", {
+    className: "block mt-2"
+  }, "Password", /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    type: "password",
+    value: pw,
+    onChange: e => setPw(e.target.value)
+  })), err && /*#__PURE__*/React.createElement("p", {
+    role: "alert",
+    className: "text-sm mt-1",
+    style: {
+      color: "#d64545"
+    }
+  }, err), /*#__PURE__*/React.createElement("div", {
+    className: "flex justify-between text-sm my-3"
+  }, /*#__PURE__*/React.createElement("label", {
+    className: "flex gap-1 items-center"
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "checkbox",
+    checked: rem,
+    onChange: e => setRem(e.target.checked)
+  }), "Remember me"), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: "lnk",
+    onClick: () => go("reset")
+  }, "Forgot password?")), /*#__PURE__*/React.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn px-8",
+    type: "submit"
+  }, "SIGN IN")), /*#__PURE__*/React.createElement("p", {
+    className: "text-center text-sm mt-3"
+  }, "Don’t have an account? ", /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: "lnk",
+    onClick: () => go("create")
+  }, "Create an account"))), back));
+  if (page === "reset") return /*#__PURE__*/React.createElement(Shell, {
+    go: go
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-4xl font-semibold"
+  }, "RESET YOUR PASSWORD"), /*#__PURE__*/React.createElement("p", {
+    className: "mb-4"
+  }, "Enter your email address and we will send you a link to reset your password."), /*#__PURE__*/React.createElement("form", {
+    className: box + "text-left",
+    onSubmit: e => {
+      e.preventDefault();
+      go("resetSent", {
+        re
+      });
+    }
+  }, /*#__PURE__*/React.createElement("label", {
+    className: "block mut"
+  }, "Email Address", /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    type: "email",
+    value: re,
+    onChange: e => setRe(e.target.value)
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "text-center mt-5"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn",
+    type: "submit"
+  }, "SEND RESET LINK"))), /*#__PURE__*/React.createElement("button", {
+    className: "mt-5 flex items-center gap-1 mx-auto",
+    onClick: () => go("signin")
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "back",
+    s: 16
+  }), " Back to Sign In")));
+  if (page === "resetSent") return /*#__PURE__*/React.createElement(Shell, {
+    go: go
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-4xl font-semibold"
+  }, "PASSWORD RESET LINK SENT!"), /*#__PURE__*/React.createElement("p", null, "A link to reset your password has been sent to ", re, "."), /*#__PURE__*/React.createElement("p", {
+    className: "mb-4"
+  }, "Please check your inbox and spam folder. If you don’t receive it shortly, you can try again."), /*#__PURE__*/React.createElement("div", {
+    className: box + "py-12"
+  }, "Reset link sent to:", /*#__PURE__*/React.createElement("br", null), re), /*#__PURE__*/React.createElement("button", {
+    className: "mt-5 flex items-center gap-1 mx-auto",
+    onClick: () => go("signin")
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "back",
+    s: 16
+  }), " Back to Sign In")));
+  if (page === "create") return /*#__PURE__*/React.createElement(Shell, {
+    go: go
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "text-center"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-4xl font-semibold"
+  }, "CREATE YOUR ACCOUNT"), /*#__PURE__*/React.createElement("p", {
+    className: "mb-4"
+  }, "Create your account to apply for the ", target, "."), /*#__PURE__*/React.createElement("form", {
+    className: box + "text-left",
+    onSubmit: e => {
+      e.preventDefault();
+      if (!nm || !email) return setErr("Enter your name and email.");
+      if (pw.length < 6 || pw !== p2) return setErr("Passwords must match and be at least 6 characters.");
+      setErr("");
+      go("success");
+    }
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-center text-xl font-semibold mb-2"
+  }, "CREATE AN ACCOUNT"), /*#__PURE__*/React.createElement("label", {
+    className: "block"
+  }, "Full Name", /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    value: nm,
+    onChange: e => setNm(e.target.value)
+  })), /*#__PURE__*/React.createElement("label", {
+    className: "block mt-2"
+  }, "Email Address", /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    type: "email",
+    value: email,
+    onChange: e => setEmail(e.target.value)
+  })), /*#__PURE__*/React.createElement("label", {
+    className: "block mt-2"
+  }, "Password", /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    type: "password",
+    value: pw,
+    onChange: e => setPw(e.target.value)
+  })), /*#__PURE__*/React.createElement("label", {
+    className: "block mt-2"
+  }, "Confirm Password", /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    type: "password",
+    value: p2,
+    onChange: e => setP2(e.target.value)
+  })), err && /*#__PURE__*/React.createElement("p", {
+    role: "alert",
+    className: "text-sm mt-2",
+    style: {
+      color: "#d64545"
+    }
+  }, err), /*#__PURE__*/React.createElement("button", {
+    className: "btn w-full mt-4",
+    type: "submit"
+  }, "CREATE ACCOUNT"), /*#__PURE__*/React.createElement("p", {
+    className: "text-sm mt-3"
+  }, "Already have an account? ", /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    className: "lnk",
+    onClick: () => go("signin")
+  }, "Sign In"))), back));
+  return /*#__PURE__*/React.createElement(Shell, {
+    go: go
+  }, /*#__PURE__*/React.createElement("div", {
+    className: box + "text-center"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-5xl font-bold"
+  }, "SUCCESS!"), /*#__PURE__*/React.createElement("h2", {
+    className: "text-2xl font-semibold"
+  }, "Account Created!"), /*#__PURE__*/React.createElement("div", {
+    className: "my-5 inline-flex text-[var(--accent)]"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "ok",
+    s: 72
+  })), /*#__PURE__*/React.createElement("p", null, "Verification link sent to:", /*#__PURE__*/React.createElement("br", null), email || "user@example.com"), /*#__PURE__*/React.createElement("p", {
+    className: "mt-3"
+  }, "Next: Complete your ", job ? `${job.t} application profile at ${job.co}` : "application profile", "."), /*#__PURE__*/React.createElement("button", {
+    className: "btn mt-4",
+    onClick: () => {
+      setUser(true);
+      go("app");
+    }
+  }, "BEGIN APPLICATION"), back));
 }
 function Info({
   page,
@@ -1075,186 +915,127 @@ function Info({
   const k = q.toLowerCase(),
     faq = FAQ.filter(f => (f[0] + f[1]).toLowerCase().includes(k)),
     top = TOP.filter(t => (t[1] + t[2]).toLowerCase().includes(k));
-  const nav = (p, l) => /*#__PURE__*/_jsxDEV("button", {
+  const nav = (p, l) => /*#__PURE__*/React.createElement("button", {
     className: "btn-o " + (page === p ? "!bg-[var(--chip)] !border-[var(--accent)]" : ""),
     onClick: () => go(p),
-    "aria-current": page === p ? "page" : undefined,
-    children: l
-  }, void 0, false);
-  const back = /*#__PURE__*/_jsxDEV("button", {
+    "aria-current": page === p ? "page" : undefined
+  }, l);
+  const back = /*#__PURE__*/React.createElement("button", {
     className: "mt-8 flex items-center gap-1 mx-auto",
-    onClick: () => go(user ? "app" : "home"),
-    children: [/*#__PURE__*/_jsxDEV(I, {
-      n: "back",
-      s: 16
-    }, void 0, false), " ", user ? "Go back to Dashboard" : "Go back to Homepage"]
-  }, void 0, true);
-  return /*#__PURE__*/_jsxDEV("div", {
-    className: "min-h-screen",
-    children: [/*#__PURE__*/_jsxDEV("header", {
-      className: "bar flex items-center justify-between px-5 py-3",
-      children: [/*#__PURE__*/_jsxDEV(Logo, {
-        onClick: () => go(user ? "app" : "home")
-      }, void 0, false), /*#__PURE__*/_jsxDEV("nav", {
-        className: "flex gap-2",
-        children: [!user && /*#__PURE__*/_jsxDEV("button", {
-          className: "btn-o",
-          onClick: () => go("signin"),
-          children: "Sign In"
-        }, void 0, false), nav("about", "About"), nav("help", "Help")]
-      }, void 0, true)]
-    }, void 0, true), page === "about" ? /*#__PURE__*/_jsxDEV("main", {
-      className: "max-w-3xl mx-auto px-4 pt-12 text-center",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-5xl font-semibold",
-        children: "ABOUT JOB-FILTER.COM"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        className: "text-lg mb-8",
-        children: "We make job hunting simple, transparent, and fit for your life!"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-        className: "grid md:grid-cols-2 gap-8 text-left",
-        children: [/*#__PURE__*/_jsxDEV("section", {
-          className: "flex gap-3",
-          children: [/*#__PURE__*/_jsxDEV(I, {
-            n: "file",
-            s: 44,
-            c: "shrink-0 text-[var(--accent)]"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-            children: [/*#__PURE__*/_jsxDEV("h2", {
-              className: "text-2xl font-semibold",
-              children: "OUR MISSION"
-            }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-              children: "We believe finding the right job shouldn’t be a full-time job. We created Job-Filter to simplify your search by matching your skills, schedule, and preferences directly to local & remote roles."
-            }, void 0, false)]
-          }, void 0, true)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("section", {
-          children: [/*#__PURE__*/_jsxDEV("h2", {
-            className: "text-2xl font-semibold",
-            children: "HOW IT WORKS"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("ul", {
-            className: "space-y-3 mt-2",
-            children: [["search", "FILTER", "Customize by schedule, experience & salary."], ["ok", "MATCH", "Our smart algorithm finds your instant match %."], ["send", "APPLY", "Submit in one click & track your progress easily!"]].map(([ic, t, d]) => /*#__PURE__*/_jsxDEV("li", {
-              className: "flex gap-3",
-              children: [/*#__PURE__*/_jsxDEV(I, {
-                n: ic,
-                s: 22,
-                c: "shrink-0 text-[var(--accent)] mt-0.5"
-              }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-                children: [/*#__PURE__*/_jsxDEV("b", {
-                  children: [t, ":"]
-                }, void 0, true), " ", d]
-              }, void 0, true)]
-            }, t, true))
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true), back]
-    }, void 0, true) : /*#__PURE__*/_jsxDEV("main", {
-      className: "max-w-3xl mx-auto px-4 pt-12 text-center",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-5xl font-semibold",
-        children: "HELP & SUPPORT"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("p", {
-        className: "text-lg mb-5",
-        children: "How can we help you today?"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("label", {
-        className: "card flex items-center gap-2 px-3 max-w-lg mx-auto",
-        style: {
-          borderColor: "var(--accent)"
-        },
-        children: [/*#__PURE__*/_jsxDEV("span", {
-          className: "sr-only",
-          children: "Search help"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("input", {
-          className: "w-full py-2.5 bg-transparent outline-none",
-          placeholder: "Search for answers, topics, or FAQs...",
-          value: q,
-          onChange: e => setQ(e.target.value)
-        }, void 0, false), /*#__PURE__*/_jsxDEV(I, {
-          n: "search",
-          s: 18,
-          c: "mut"
-        }, void 0, false)]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-        className: "grid md:grid-cols-[3fr_2fr] gap-4 mt-6 text-left",
-        children: [/*#__PURE__*/_jsxDEV("section", {
-          className: "card p-4",
-          children: [/*#__PURE__*/_jsxDEV("h2", {
-            className: "text-xl font-semibold mb-2",
-            children: "FREQUENTLY ASKED QUESTIONS (FAQs)"
-          }, void 0, false), faq.map(f => /*#__PURE__*/_jsxDEV("div", {
-            className: "mb-3",
-            children: [/*#__PURE__*/_jsxDEV("p", {
-              children: [/*#__PURE__*/_jsxDEV("b", {
-                children: "Q:"
-              }, void 0, false), " ", /*#__PURE__*/_jsxDEV("b", {
-                children: f[0]
-              }, void 0, false)]
-            }, void 0, true), /*#__PURE__*/_jsxDEV("p", {
-              children: [/*#__PURE__*/_jsxDEV("b", {
-                children: "A:"
-              }, void 0, false), " ", f[1]]
-            }, void 0, true)]
-          }, f[0], true)), !faq.length && /*#__PURE__*/_jsxDEV("p", {
-            className: "mut",
-            children: "No FAQs match that search. Try a different keyword."
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          className: "space-y-4",
-          children: [/*#__PURE__*/_jsxDEV("section", {
-            className: "card p-4",
-            children: [/*#__PURE__*/_jsxDEV("h2", {
-              className: "text-xl font-semibold mb-2",
-              children: "POPULAR HELP TOPICS"
-            }, void 0, false), /*#__PURE__*/_jsxDEV("ul", {
-              className: "space-y-2",
-              children: [top.map(t => /*#__PURE__*/_jsxDEV("li", {
-                children: [/*#__PURE__*/_jsxDEV("button", {
-                  className: "flex items-center gap-2 lnk text-left",
-                  onClick: () => setOpen(open === t[1] ? null : t[1]),
-                  "aria-expanded": open === t[1],
-                  children: [/*#__PURE__*/_jsxDEV(I, {
-                    n: t[0],
-                    s: 20
-                  }, void 0, false), t[1]]
-                }, void 0, true), open === t[1] && /*#__PURE__*/_jsxDEV("p", {
-                  className: "text-sm ml-7 mt-1",
-                  children: [t[2], t[1].startsWith("Resetting") && /*#__PURE__*/_jsxDEV(_Fragment, {
-                    children: [" ", /*#__PURE__*/_jsxDEV("button", {
-                      className: "lnk",
-                      onClick: () => go("reset"),
-                      children: "Reset it now"
-                    }, void 0, false)]
-                  }, void 0, true)]
-                }, void 0, true)]
-              }, t[1], true)), !top.length && /*#__PURE__*/_jsxDEV("li", {
-                className: "mut",
-                children: "No topics match that search."
-              }, void 0, false)]
-            }, void 0, true)]
-          }, void 0, true), /*#__PURE__*/_jsxDEV("section", {
-            className: "card p-4",
-            children: [/*#__PURE__*/_jsxDEV("h2", {
-              className: "text-xl font-semibold mb-2",
-              children: "STILL NEED HELP?"
-            }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-              className: "flex gap-2",
-              children: [/*#__PURE__*/_jsxDEV(I, {
-                n: "mail",
-                s: 22,
-                c: "shrink-0"
-              }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-                children: ["Contact us anytime at ", /*#__PURE__*/_jsxDEV("a", {
-                  className: "lnk",
-                  href: "mailto:support@job-filter.com",
-                  children: "support@job-filter.com"
-                }, void 0, false)]
-              }, void 0, true)]
-            }, void 0, true)]
-          }, void 0, true)]
-        }, void 0, true)]
-      }, void 0, true), back]
-    }, void 0, true)]
-  }, void 0, true);
+    onClick: () => go(user ? "app" : "home")
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "back",
+    s: 16
+  }), " ", user ? "Go back to Dashboard" : "Go back to Homepage");
+  return /*#__PURE__*/React.createElement("div", {
+    className: "min-h-screen"
+  }, /*#__PURE__*/React.createElement("header", {
+    className: "bar flex items-center justify-between px-5 py-3"
+  }, /*#__PURE__*/React.createElement(Logo, {
+    onClick: () => go(user ? "app" : "home")
+  }), /*#__PURE__*/React.createElement("nav", {
+    className: "flex gap-2"
+  }, !user && /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => go("signin")
+  }, "Sign In"), nav("about", "About"), nav("help", "Help"))), page === "about" ? /*#__PURE__*/React.createElement("main", {
+    className: "max-w-3xl mx-auto px-4 pt-12 text-center"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-5xl font-semibold"
+  }, "ABOUT JOB-FILTER.COM"), /*#__PURE__*/React.createElement("p", {
+    className: "text-lg mb-8"
+  }, "We make job hunting simple, transparent, and fit for your life!"), /*#__PURE__*/React.createElement("div", {
+    className: "grid md:grid-cols-2 gap-8 text-left"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "flex gap-3"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "file",
+    s: 44,
+    c: "shrink-0 text-[var(--accent)]"
+  }), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h2", {
+    className: "text-2xl font-semibold"
+  }, "OUR MISSION"), /*#__PURE__*/React.createElement("p", null, "We believe finding the right job shouldn’t be a full-time job. We created Job-Filter to simplify your search by matching your skills, schedule, and preferences directly to local & remote roles."))), /*#__PURE__*/React.createElement("section", null, /*#__PURE__*/React.createElement("h2", {
+    className: "text-2xl font-semibold"
+  }, "HOW IT WORKS"), /*#__PURE__*/React.createElement("ul", {
+    className: "space-y-3 mt-2"
+  }, [["search", "FILTER", "Customize by schedule, experience & salary."], ["ok", "MATCH", "Our smart algorithm finds your instant match %."], ["send", "APPLY", "Submit in one click & track your progress easily!"]].map(([ic, t, d]) => /*#__PURE__*/React.createElement("li", {
+    key: t,
+    className: "flex gap-3"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: ic,
+    s: 22,
+    c: "shrink-0 text-[var(--accent)] mt-0.5"
+  }), /*#__PURE__*/React.createElement("span", null, /*#__PURE__*/React.createElement("b", null, t, ":"), " ", d)))))), back) : /*#__PURE__*/React.createElement("main", {
+    className: "max-w-3xl mx-auto px-4 pt-12 text-center"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-5xl font-semibold"
+  }, "HELP & SUPPORT"), /*#__PURE__*/React.createElement("p", {
+    className: "text-lg mb-5"
+  }, "How can we help you today?"), /*#__PURE__*/React.createElement("label", {
+    className: "card flex items-center gap-2 px-3 max-w-lg mx-auto",
+    style: {
+      borderColor: "var(--accent)"
+    }
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "sr-only"
+  }, "Search help"), /*#__PURE__*/React.createElement("input", {
+    className: "w-full py-2.5 bg-transparent outline-none",
+    placeholder: "Search for answers, topics, or FAQs...",
+    value: q,
+    onChange: e => setQ(e.target.value)
+  }), /*#__PURE__*/React.createElement(I, {
+    n: "search",
+    s: 18,
+    c: "mut"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "grid md:grid-cols-[3fr_2fr] gap-4 mt-6 text-left"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "card p-4"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-xl font-semibold mb-2"
+  }, "FREQUENTLY ASKED QUESTIONS (FAQs)"), faq.map(f => /*#__PURE__*/React.createElement("div", {
+    key: f[0],
+    className: "mb-3"
+  }, /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, "Q:"), " ", /*#__PURE__*/React.createElement("b", null, f[0])), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, "A:"), " ", f[1]))), !faq.length && /*#__PURE__*/React.createElement("p", {
+    className: "mut"
+  }, "No FAQs match that search. Try a different keyword.")), /*#__PURE__*/React.createElement("div", {
+    className: "space-y-4"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "card p-4"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-xl font-semibold mb-2"
+  }, "POPULAR HELP TOPICS"), /*#__PURE__*/React.createElement("ul", {
+    className: "space-y-2"
+  }, top.map(t => /*#__PURE__*/React.createElement("li", {
+    key: t[1]
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "flex items-center gap-2 lnk text-left",
+    onClick: () => setOpen(open === t[1] ? null : t[1]),
+    "aria-expanded": open === t[1]
+  }, /*#__PURE__*/React.createElement(I, {
+    n: t[0],
+    s: 20
+  }), t[1]), open === t[1] && /*#__PURE__*/React.createElement("p", {
+    className: "text-sm ml-7 mt-1"
+  }, t[2], t[1].startsWith("Resetting") && /*#__PURE__*/React.createElement(React.Fragment, null, " ", /*#__PURE__*/React.createElement("button", {
+    className: "lnk",
+    onClick: () => go("reset")
+  }, "Reset it now"))))), !top.length && /*#__PURE__*/React.createElement("li", {
+    className: "mut"
+  }, "No topics match that search."))), /*#__PURE__*/React.createElement("section", {
+    className: "card p-4"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-xl font-semibold mb-2"
+  }, "STILL NEED HELP?"), /*#__PURE__*/React.createElement("div", {
+    className: "flex gap-2"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "mail",
+    s: 22,
+    c: "shrink-0"
+  }), /*#__PURE__*/React.createElement("span", null, "Contact us anytime at ", /*#__PURE__*/React.createElement("a", {
+    className: "lnk",
+    href: "mailto:support@job-filter.com"
+  }, "support@job-filter.com")))))), back));
 }
 const TABS = [["dash", "Dashboard"], ["matches", "Job Matches (12)"], ["apps", "My Applications"], ["profile", "My Profile"], ["settings", "Settings"]];
 function AppShell({
@@ -1264,70 +1045,53 @@ function AppShell({
   out,
   children
 }) {
-  return /*#__PURE__*/_jsxDEV("div", {
-    className: "min-h-screen",
-    children: [/*#__PURE__*/_jsxDEV("header", {
-      className: "bar px-5 pt-3",
-      children: [/*#__PURE__*/_jsxDEV("div", {
-        className: "flex items-center justify-between gap-3 flex-wrap",
-        children: [/*#__PURE__*/_jsxDEV("div", {
-          className: "flex items-center gap-3",
-          children: /*#__PURE__*/_jsxDEV(Logo, {
-            onClick: () => setTab("dash")
-          }, void 0, false)
-        }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-          className: "flex items-center gap-3",
-          children: [/*#__PURE__*/_jsxDEV("button", {
-            onClick: () => setTab("profile"),
-            className: "flex items-center gap-2 text-left",
-            "aria-label": "Open my profile",
-            children: [/*#__PURE__*/_jsxDEV("span", {
-              className: "w-10 h-10 rounded-full flex items-center justify-center",
-              style: {
-                background: "var(--chip)"
-              },
-              children: /*#__PURE__*/_jsxDEV(I, {
-                n: "user"
-              }, void 0, false)
-            }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-              className: "leading-tight text-sm",
-              children: ["Welcome,", /*#__PURE__*/_jsxDEV("br", {}, void 0, false), /*#__PURE__*/_jsxDEV("b", {
-                children: "Jane Doe!"
-              }, void 0, false)]
-            }, void 0, true)]
-          }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-            className: "btn-o text-sm",
-            onClick: out,
-            children: "Sign out"
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("nav", {
-        className: "flex items-center gap-5 mt-2 overflow-x-auto",
-        "aria-label": "Main",
-        children: TABS.map(([k, v]) => /*#__PURE__*/_jsxDEV("button", {
-          onClick: () => setTab(k),
-          "aria-current": tab === k ? "page" : undefined,
-          className: "py-2 whitespace-nowrap hover:text-[var(--accent)] " + (tab === k ? "tabon" : ""),
-          children: v
-        }, k, false))
-      }, void 0, false)]
-    }, void 0, true), /*#__PURE__*/_jsxDEV("main", {
-      className: "max-w-5xl mx-auto px-4 py-6",
-      children: children
-    }, void 0, false), /*#__PURE__*/_jsxDEV("footer", {
-      className: "max-w-5xl mx-auto px-4 pb-24 flex justify-center gap-5 text-sm text-[var(--accent)]",
-      children: [/*#__PURE__*/_jsxDEV("button", {
-        onClick: () => go("help"),
-        children: "Help"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-        onClick: () => setTab("settings"),
-        children: "Settings"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-        onClick: () => alert("Job Filter Academy (prototype)"),
-        children: "Job Filter Academy"
-      }, void 0, false)]
-    }, void 0, true)]
-  }, void 0, true);
+  return /*#__PURE__*/React.createElement("div", {
+    className: "min-h-screen"
+  }, /*#__PURE__*/React.createElement("header", {
+    className: "bar px-5 pt-3"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center justify-between gap-3 flex-wrap"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center gap-3"
+  }, /*#__PURE__*/React.createElement(Logo, {
+    onClick: () => setTab("dash")
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center gap-3"
+  }, /*#__PURE__*/React.createElement("button", {
+    onClick: () => setTab("profile"),
+    className: "flex items-center gap-2 text-left",
+    "aria-label": "Open my profile"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "w-10 h-10 rounded-full flex items-center justify-center",
+    style: {
+      background: "var(--chip)"
+    }
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "user"
+  })), /*#__PURE__*/React.createElement("span", {
+    className: "leading-tight text-sm"
+  }, "Welcome,", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("b", null, "Jane Doe!"))), /*#__PURE__*/React.createElement("button", {
+    className: "btn-o text-sm",
+    onClick: out
+  }, "Sign out"))), /*#__PURE__*/React.createElement("nav", {
+    className: "flex items-center gap-5 mt-2 overflow-x-auto",
+    "aria-label": "Main"
+  }, TABS.map(([k, v]) => /*#__PURE__*/React.createElement("button", {
+    key: k,
+    onClick: () => setTab(k),
+    "aria-current": tab === k ? "page" : undefined,
+    className: "py-2 whitespace-nowrap hover:text-[var(--accent)] " + (tab === k ? "tabon" : "")
+  }, v)))), /*#__PURE__*/React.createElement("main", {
+    className: "max-w-5xl mx-auto px-4 py-6"
+  }, children), /*#__PURE__*/React.createElement("footer", {
+    className: "max-w-5xl mx-auto px-4 pb-24 flex justify-center gap-5 text-sm text-[var(--accent)]"
+  }, /*#__PURE__*/React.createElement("button", {
+    onClick: () => go("help")
+  }, "Help"), /*#__PURE__*/React.createElement("button", {
+    onClick: () => setTab("settings")
+  }, "Settings"), /*#__PURE__*/React.createElement("button", {
+    onClick: () => alert("Job Filter Academy (prototype)")
+  }, "Job Filter Academy")));
 }
 function Dash({
   setTab,
@@ -1336,81 +1100,62 @@ function Dash({
   const S = [["TOTAL APPLICATIONS", total, "send", "apps"], ["INTERVIEWS PENDING", 3, "cal", "apps"], ["NEW JOB MATCHES", 12, "search", "matches"], ["SAVED JOBS", 15, "star", "matches"]];
   const act = [["send", "Application Submitted for Sr. UI/UX Designer", "(Yesterday)"], ["star", "Saved Job UX Researcher at Bytris", "(2 days ago)"], ["bell", "New Job Alert: Full Stack Developer added to list", "(Today)"]];
   const ins = ["Tech Layoffs Slow Down and Hiring Stabilizes", "The Role of AI in UX Design and Job Searching", "5 Top Cities for Job Growth in 2024"];
-  return /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("h1", {
-      className: "text-3xl font-bold mb-3",
-      children: "DASHBOARD OVERVIEW"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-      className: "grid grid-cols-2 md:grid-cols-4 gap-3",
-      children: S.map(([l, n, ic, t]) => /*#__PURE__*/_jsxDEV("button", {
-        onClick: () => setTab(t),
-        className: "card p-4 text-left transition hover:-translate-y-0.5 hover:shadow-md",
-        children: [/*#__PURE__*/_jsxDEV("div", {
-          className: "text-sm mut leading-tight",
-          children: l
-        }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-          className: "flex justify-between items-center mt-1",
-          children: [/*#__PURE__*/_jsxDEV("span", {
-            className: "text-4xl font-bold",
-            children: n
-          }, void 0, false), /*#__PURE__*/_jsxDEV(I, {
-            n: ic,
-            s: 28
-          }, void 0, false)]
-        }, void 0, true)]
-      }, l, true))
-    }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-      className: "grid md:grid-cols-2 gap-3 mt-3",
-      children: [/*#__PURE__*/_jsxDEV("section", {
-        className: "card p-4",
-        children: [/*#__PURE__*/_jsxDEV("h2", {
-          className: "font-semibold text-lg mb-2",
-          children: "RECENT ACTIVITY"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("ul", {
-          className: "space-y-3",
-          children: act.map(([ic, t, d]) => /*#__PURE__*/_jsxDEV("li", {
-            className: "flex gap-3",
-            children: [/*#__PURE__*/_jsxDEV("span", {
-              className: "w-8 h-8 shrink-0 rounded flex items-center justify-center",
-              style: {
-                background: "var(--chip)"
-              },
-              children: /*#__PURE__*/_jsxDEV(I, {
-                n: ic,
-                s: 16
-              }, void 0, false)
-            }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-              children: [t, /*#__PURE__*/_jsxDEV("br", {}, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-                className: "text-sm mut",
-                children: d
-              }, void 0, false)]
-            }, void 0, true)]
-          }, t, true))
-        }, void 0, false)]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("section", {
-        className: "card p-4",
-        children: [/*#__PURE__*/_jsxDEV("h2", {
-          className: "font-semibold text-lg mb-2",
-          children: "TOP INDUSTRY INSIGHTS"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("ul", {
-          className: "space-y-3",
-          children: ins.map(t => /*#__PURE__*/_jsxDEV("li", {
-            className: "flex gap-3 items-center",
-            children: [/*#__PURE__*/_jsxDEV("span", {
-              className: "w-10 h-10 shrink-0 rounded",
-              style: {
-                background: "var(--chip)"
-              }
-            }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-              className: "text-left hover:underline",
-              onClick: () => alert(t),
-              children: t
-            }, void 0, false)]
-          }, t, true))
-        }, void 0, false)]
-      }, void 0, true)]
-    }, void 0, true)]
-  }, void 0, true);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", {
+    className: "text-3xl font-bold mb-3"
+  }, "DASHBOARD OVERVIEW"), /*#__PURE__*/React.createElement("div", {
+    className: "grid grid-cols-2 md:grid-cols-4 gap-3"
+  }, S.map(([l, n, ic, t]) => /*#__PURE__*/React.createElement("button", {
+    key: l,
+    onClick: () => setTab(t),
+    className: "card p-4 text-left transition hover:-translate-y-0.5 hover:shadow-md"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "text-sm mut leading-tight"
+  }, l), /*#__PURE__*/React.createElement("div", {
+    className: "flex justify-between items-center mt-1"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "text-4xl font-bold"
+  }, n), /*#__PURE__*/React.createElement(I, {
+    n: ic,
+    s: 28
+  }))))), /*#__PURE__*/React.createElement("div", {
+    className: "grid md:grid-cols-2 gap-3 mt-3"
+  }, /*#__PURE__*/React.createElement("section", {
+    className: "card p-4"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "font-semibold text-lg mb-2"
+  }, "RECENT ACTIVITY"), /*#__PURE__*/React.createElement("ul", {
+    className: "space-y-3"
+  }, act.map(([ic, t, d]) => /*#__PURE__*/React.createElement("li", {
+    key: t,
+    className: "flex gap-3"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "w-8 h-8 shrink-0 rounded flex items-center justify-center",
+    style: {
+      background: "var(--chip)"
+    }
+  }, /*#__PURE__*/React.createElement(I, {
+    n: ic,
+    s: 16
+  })), /*#__PURE__*/React.createElement("span", null, t, /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("span", {
+    className: "text-sm mut"
+  }, d)))))), /*#__PURE__*/React.createElement("section", {
+    className: "card p-4"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "font-semibold text-lg mb-2"
+  }, "TOP INDUSTRY INSIGHTS"), /*#__PURE__*/React.createElement("ul", {
+    className: "space-y-3"
+  }, ins.map(t => /*#__PURE__*/React.createElement("li", {
+    key: t,
+    className: "flex gap-3 items-center"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "w-10 h-10 shrink-0 rounded",
+    style: {
+      background: "var(--chip)"
+    }
+  }), /*#__PURE__*/React.createElement("button", {
+    className: "text-left hover:underline",
+    onClick: () => alert(t)
+  }, t)))))));
 }
 function Matches({
   openJob
@@ -1441,153 +1186,111 @@ function Matches({
   const pages = Math.max(1, Math.ceil(list.length / pp)),
     shown = list.slice((pg - 1) * pp, pg * pp);
   const G = [["Location", "loc", ["Remote", "San Francisco", "New York", "Chicago"]], ["Job Type", "type", ["Full-time", "Part-time"]], ["Experience Level", "lvl", ["High", "Medium", "Low"]], ["Salary Range", "sal", Object.keys(sal)]];
-  return /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("div", {
-      className: "flex flex-wrap items-center justify-between gap-2 mb-3",
-      children: [/*#__PURE__*/_jsxDEV("h1", {
-        className: "text-3xl font-bold",
-        children: ["Job Matches (", list.length, ")"]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-        className: "flex flex-wrap items-center gap-3 text-sm",
-        children: [/*#__PURE__*/_jsxDEV("label", {
-          children: ["Sort by: ", /*#__PURE__*/_jsxDEV("select", {
-            className: "inp !w-auto !py-1",
-            value: sort,
-            onChange: e => setSort(e.target.value),
-            children: [/*#__PURE__*/_jsxDEV("option", {
-              value: "m",
-              children: "Best Match"
-            }, void 0, false), /*#__PURE__*/_jsxDEV("option", {
-              value: "t",
-              children: "Title"
-            }, void 0, false)]
-          }, void 0, true)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("label", {
-          children: ["Items per page ", /*#__PURE__*/_jsxDEV("select", {
-            className: "inp !w-auto !py-1",
-            value: pp,
-            onChange: e => {
-              setPp(+e.target.value);
-              setPg(1);
-            },
-            children: [/*#__PURE__*/_jsxDEV("option", {
-              children: "4"
-            }, void 0, false), /*#__PURE__*/_jsxDEV("option", {
-              children: "6"
-            }, void 0, false), /*#__PURE__*/_jsxDEV("option", {
-              children: "8"
-            }, void 0, false)]
-          }, void 0, true)]
-        }, void 0, true)]
-      }, void 0, true)]
-    }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-      className: "grid md:grid-cols-[13rem_minmax(0,1fr)] gap-4",
-      children: [/*#__PURE__*/_jsxDEV("aside", {
-        className: "card p-4 h-fit md:sticky md:top-36",
-        children: [/*#__PURE__*/_jsxDEV("div", {
-          className: "flex items-center justify-between mb-2",
-          children: [/*#__PURE__*/_jsxDEV("h2", {
-            className: "text-lg font-semibold",
-            children: "Filters"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-            className: "lnk text-sm",
-            onClick: () => {
-              setF({
-                loc: [],
-                type: [],
-                lvl: [],
-                sal: []
-              });
-              setPg(1);
-            },
-            children: "Clear all"
-          }, void 0, false)]
-        }, void 0, true), G.map(([t, k, o]) => /*#__PURE__*/_jsxDEV("fieldset", {
-          className: "mb-3",
-          children: [/*#__PURE__*/_jsxDEV("legend", {
-            className: "font-semibold mb-1",
-            children: t
-          }, void 0, false), o.map(v => /*#__PURE__*/_jsxDEV("label", {
-            className: "flex gap-2 text-sm py-0.5 cursor-pointer",
-            children: [/*#__PURE__*/_jsxDEV("input", {
-              type: "checkbox",
-              className: "accent-[var(--accent)]",
-              checked: f[k].includes(v),
-              onChange: () => tog(k, v)
-            }, void 0, false), v]
-          }, v, true))]
-        }, k, true))]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("section", {
-        children: [/*#__PURE__*/_jsxDEV("div", {
-          className: "grid sm:grid-cols-2 gap-3",
-          children: [shown.map(j => /*#__PURE__*/_jsxDEV("article", {
-            className: "card p-4 flex flex-col gap-1.5 transition hover:shadow-md min-w-0",
-            children: [/*#__PURE__*/_jsxDEV("div", {
-              className: "flex gap-3",
-              children: [/*#__PURE__*/_jsxDEV("span", {
-                className: "w-12 h-12 rounded shrink-0 flex items-center justify-center",
-                style: {
-                  background: "var(--fg)",
-                  color: "var(--bg)"
-                },
-                children: /*#__PURE__*/_jsxDEV(I, {
-                  n: j.ic,
-                  s: 24
-                }, void 0, false)
-              }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-                children: [/*#__PURE__*/_jsxDEV("h3", {
-                  className: "text-xl font-semibold leading-tight",
-                  children: j.t
-                }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-                  className: "text-sm",
-                  children: [j.co, " • ", j.loc]
-                }, void 0, true)]
-              }, void 0, true)]
-            }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-              className: "flex flex-wrap items-center gap-x-3 gap-y-1 text-sm",
-              children: [/*#__PURE__*/_jsxDEV(Badge, {
-                m: j.m
-              }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-                className: "mut",
-                children: j.sch
-              }, void 0, false)]
-            }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-              className: "flex flex-wrap gap-1",
-              children: j.skills.map(s => /*#__PURE__*/_jsxDEV("span", {
-                className: "chip",
-                children: s
-              }, s, false))
-            }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-              className: "btn self-end mt-1",
-              onClick: () => openJob(j),
-              children: "View & Apply"
-            }, void 0, false)]
-          }, j.id, true)), !shown.length && /*#__PURE__*/_jsxDEV("p", {
-            className: "mut",
-            children: "No matches for those filters. Clear a filter to see more jobs."
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("nav", {
-          className: "flex justify-end gap-1 mt-3",
-          "aria-label": "Pages",
-          children: [/*#__PURE__*/_jsxDEV("button", {
-            className: "btn-o",
-            onClick: () => setPg(Math.max(1, pg - 1)),
-            children: "<"
-          }, void 0, false), Array.from({
-            length: pages
-          }, (_, i) => /*#__PURE__*/_jsxDEV("button", {
-            onClick: () => setPg(i + 1),
-            className: "btn-o " + (pg === i + 1 ? "!bg-[var(--accent)] !text-[var(--accent-fg)]" : ""),
-            children: i + 1
-          }, i, false)), /*#__PURE__*/_jsxDEV("button", {
-            className: "btn-o",
-            onClick: () => setPg(Math.min(pages, pg + 1)),
-            children: ">"
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true)]
-    }, void 0, true)]
-  }, void 0, true);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap items-center justify-between gap-2 mb-3"
+  }, /*#__PURE__*/React.createElement("h1", {
+    className: "text-3xl font-bold"
+  }, "Job Matches (", list.length, ")"), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap items-center gap-3 text-sm"
+  }, /*#__PURE__*/React.createElement("label", null, "Sort by: ", /*#__PURE__*/React.createElement("select", {
+    className: "inp !w-auto !py-1",
+    value: sort,
+    onChange: e => setSort(e.target.value)
+  }, /*#__PURE__*/React.createElement("option", {
+    value: "m"
+  }, "Best Match"), /*#__PURE__*/React.createElement("option", {
+    value: "t"
+  }, "Title"))), /*#__PURE__*/React.createElement("label", null, "Items per page ", /*#__PURE__*/React.createElement("select", {
+    className: "inp !w-auto !py-1",
+    value: pp,
+    onChange: e => {
+      setPp(+e.target.value);
+      setPg(1);
+    }
+  }, /*#__PURE__*/React.createElement("option", null, "4"), /*#__PURE__*/React.createElement("option", null, "6"), /*#__PURE__*/React.createElement("option", null, "8"))))), /*#__PURE__*/React.createElement("div", {
+    className: "grid md:grid-cols-[13rem_minmax(0,1fr)] gap-4"
+  }, /*#__PURE__*/React.createElement("aside", {
+    className: "card p-4 h-fit md:sticky md:top-36"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex items-center justify-between mb-2"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-lg font-semibold"
+  }, "Filters"), /*#__PURE__*/React.createElement("button", {
+    className: "lnk text-sm",
+    onClick: () => {
+      setF({
+        loc: [],
+        type: [],
+        lvl: [],
+        sal: []
+      });
+      setPg(1);
+    }
+  }, "Clear all")), G.map(([t, k, o]) => /*#__PURE__*/React.createElement("fieldset", {
+    key: k,
+    className: "mb-3"
+  }, /*#__PURE__*/React.createElement("legend", {
+    className: "font-semibold mb-1"
+  }, t), o.map(v => /*#__PURE__*/React.createElement("label", {
+    key: v,
+    className: "flex gap-2 text-sm py-0.5 cursor-pointer"
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "checkbox",
+    className: "accent-[var(--accent)]",
+    checked: f[k].includes(v),
+    onChange: () => tog(k, v)
+  }), v))))), /*#__PURE__*/React.createElement("section", null, /*#__PURE__*/React.createElement("div", {
+    className: "grid sm:grid-cols-2 gap-3"
+  }, shown.map(j => /*#__PURE__*/React.createElement("article", {
+    key: j.id,
+    className: "card p-4 flex flex-col gap-1.5 transition hover:shadow-md min-w-0"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex gap-3"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "w-12 h-12 rounded shrink-0 flex items-center justify-center",
+    style: {
+      background: "var(--fg)",
+      color: "var(--bg)"
+    }
+  }, /*#__PURE__*/React.createElement(I, {
+    n: j.ic,
+    s: 24
+  })), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("h3", {
+    className: "text-xl font-semibold leading-tight"
+  }, j.t), /*#__PURE__*/React.createElement("div", {
+    className: "text-sm"
+  }, j.co, " • ", j.loc))), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap items-center gap-x-3 gap-y-1 text-sm"
+  }, /*#__PURE__*/React.createElement(Badge, {
+    m: j.m
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "mut"
+  }, j.sch)), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap gap-1"
+  }, j.skills.map(s => /*#__PURE__*/React.createElement("span", {
+    key: s,
+    className: "chip"
+  }, s))), /*#__PURE__*/React.createElement("button", {
+    className: "btn self-end mt-1",
+    onClick: () => openJob(j)
+  }, "View & Apply"))), !shown.length && /*#__PURE__*/React.createElement("p", {
+    className: "mut"
+  }, "No matches for those filters. Clear a filter to see more jobs.")), /*#__PURE__*/React.createElement("nav", {
+    className: "flex justify-end gap-1 mt-3",
+    "aria-label": "Pages"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => setPg(Math.max(1, pg - 1))
+  }, "<"), Array.from({
+    length: pages
+  }, (_, i) => /*#__PURE__*/React.createElement("button", {
+    key: i,
+    onClick: () => setPg(i + 1),
+    className: "btn-o " + (pg === i + 1 ? "!bg-[var(--accent)] !text-[var(--accent-fg)]" : "")
+  }, i + 1)), /*#__PURE__*/React.createElement("button", {
+    className: "btn-o",
+    onClick: () => setPg(Math.min(pages, pg + 1))
+  }, ">")))));
 }
 function Apps({
   openJob,
@@ -1596,99 +1299,68 @@ function Apps({
   const [t, setT] = useState("All"),
     [w, setW] = useState({});
   const rows = apps.filter(a => t === "All" || a[3] === t);
-  return /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("h1", {
-      className: "text-3xl font-bold mb-3",
-      children: "MY APPLICATIONS"
-    }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-      className: "flex flex-wrap gap-2 mb-3",
-      children: ["All", "Submitted", "In Review", "Interviews", "Hired", "Rejected"].map(x => /*#__PURE__*/_jsxDEV("button", {
-        onClick: () => setT(x),
-        className: "px-3 py-1 rounded " + (t === x ? "font-semibold" : ""),
-        style: {
-          background: t === x ? "var(--chip)" : "transparent"
-        },
-        children: x
-      }, x, false))
-    }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-      className: "card overflow-x-auto",
-      children: /*#__PURE__*/_jsxDEV("table", {
-        className: "w-full text-left",
-        children: [/*#__PURE__*/_jsxDEV("thead", {
-          style: {
-            background: "var(--chip)"
-          },
-          children: /*#__PURE__*/_jsxDEV("tr", {
-            children: ["Job Title", "Company", "Date Applied", "Status", "Actions"].map(h => /*#__PURE__*/_jsxDEV("th", {
-              className: "p-2",
-              children: h
-            }, h, false))
-          }, void 0, false)
-        }, void 0, false), /*#__PURE__*/_jsxDEV("tbody", {
-          children: [rows.map(a => /*#__PURE__*/_jsxDEV("tr", {
-            className: "border-t border-[var(--line)] hover:bg-[var(--chip)]",
-            children: [/*#__PURE__*/_jsxDEV("td", {
-              className: "p-2",
-              children: a[0]
-            }, void 0, false), /*#__PURE__*/_jsxDEV("td", {
-              className: "p-2",
-              children: a[1]
-            }, void 0, false), /*#__PURE__*/_jsxDEV("td", {
-              className: "p-2",
-              children: a[2]
-            }, void 0, false), /*#__PURE__*/_jsxDEV("td", {
-              className: "p-2",
-              children: /*#__PURE__*/_jsxDEV("span", {
-                className: "flex items-center gap-2",
-                children: [/*#__PURE__*/_jsxDEV(I, {
-                  n: w[a[0]] ? "x" : a[4],
-                  s: 18
-                }, void 0, false), w[a[0]] ? "Withdrawn" : statusLabel[a[3]]]
-              }, void 0, true)
-            }, void 0, false), /*#__PURE__*/_jsxDEV("td", {
-              className: "p-2",
-              children: [/*#__PURE__*/_jsxDEV("button", {
-                className: "lnk block",
-                onClick: () => openJob(JOBS.find(j => j.co === a[1] || j.t === a[0]) || JOBS[0]),
-                children: "View Details"
-              }, void 0, false), a[5] && !w[a[0]] ? /*#__PURE__*/_jsxDEV("button", {
-                className: "lnk block",
-                onClick: () => confirm("Withdraw this application?") && setW({
-                  ...w,
-                  [a[0]]: 1
-                }),
-                children: "Withdraw"
-              }, void 0, false) : null]
-            }, void 0, true)]
-          }, a[0] + a[1], true)), !rows.length && /*#__PURE__*/_jsxDEV("tr", {
-            children: /*#__PURE__*/_jsxDEV("td", {
-              colSpan: "5",
-              className: "p-4 mut",
-              children: "No applications here yet. Apply from Job Matches to start tracking."
-            }, void 0, false)
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true)
-    }, void 0, false), /*#__PURE__*/_jsxDEV("nav", {
-      className: "flex justify-center gap-2 mt-3 text-sm",
-      children: [/*#__PURE__*/_jsxDEV("span", {
-        className: "mut",
-        children: "Prev"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("b", {
-        className: "px-2 rounded",
-        style: {
-          background: "var(--chip)"
-        },
-        children: "1"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-        children: "2"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-        children: "3"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-        children: "Next"
-      }, void 0, false)]
-    }, void 0, true)]
-  }, void 0, true);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", {
+    className: "text-3xl font-bold mb-3"
+  }, "MY APPLICATIONS"), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap gap-2 mb-3"
+  }, ["All", "Submitted", "In Review", "Interviews", "Hired", "Rejected"].map(x => /*#__PURE__*/React.createElement("button", {
+    key: x,
+    onClick: () => setT(x),
+    className: "px-3 py-1 rounded " + (t === x ? "font-semibold" : ""),
+    style: {
+      background: t === x ? "var(--chip)" : "transparent"
+    }
+  }, x))), /*#__PURE__*/React.createElement("div", {
+    className: "card overflow-x-auto"
+  }, /*#__PURE__*/React.createElement("table", {
+    className: "w-full text-left"
+  }, /*#__PURE__*/React.createElement("thead", {
+    style: {
+      background: "var(--chip)"
+    }
+  }, /*#__PURE__*/React.createElement("tr", null, ["Job Title", "Company", "Date Applied", "Status", "Actions"].map(h => /*#__PURE__*/React.createElement("th", {
+    key: h,
+    className: "p-2"
+  }, h)))), /*#__PURE__*/React.createElement("tbody", null, rows.map(a => /*#__PURE__*/React.createElement("tr", {
+    key: a[0] + a[1],
+    className: "border-t border-[var(--line)] hover:bg-[var(--chip)]"
+  }, /*#__PURE__*/React.createElement("td", {
+    className: "p-2"
+  }, a[0]), /*#__PURE__*/React.createElement("td", {
+    className: "p-2"
+  }, a[1]), /*#__PURE__*/React.createElement("td", {
+    className: "p-2"
+  }, a[2]), /*#__PURE__*/React.createElement("td", {
+    className: "p-2"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "flex items-center gap-2"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: w[a[0]] ? "x" : a[4],
+    s: 18
+  }), w[a[0]] ? "Withdrawn" : statusLabel[a[3]])), /*#__PURE__*/React.createElement("td", {
+    className: "p-2"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "lnk block",
+    onClick: () => openJob(JOBS.find(j => j.co === a[1] || j.t === a[0]) || JOBS[0])
+  }, "View Details"), a[5] && !w[a[0]] ? /*#__PURE__*/React.createElement("button", {
+    className: "lnk block",
+    onClick: () => confirm("Withdraw this application?") && setW({
+      ...w,
+      [a[0]]: 1
+    })
+  }, "Withdraw") : null))), !rows.length && /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", {
+    colSpan: "5",
+    className: "p-4 mut"
+  }, "No applications here yet. Apply from Job Matches to start tracking."))))), /*#__PURE__*/React.createElement("nav", {
+    className: "flex justify-center gap-2 mt-3 text-sm"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "mut"
+  }, "Prev"), /*#__PURE__*/React.createElement("b", {
+    className: "px-2 rounded",
+    style: {
+      background: "var(--chip)"
+    }
+  }, "1"), /*#__PURE__*/React.createElement("span", null, "2"), /*#__PURE__*/React.createElement("span", null, "3"), /*#__PURE__*/React.createElement("span", null, "Next")));
 }
 function Profile() {
   const [ed, setEd] = useState(null);
@@ -1704,98 +1376,67 @@ function Profile() {
     children,
     k,
     edit
-  }) => /*#__PURE__*/_jsxDEV("section", {
-    className: "flex gap-4 py-4 border-t border-[var(--line)]",
-    children: [/*#__PURE__*/_jsxDEV("h2", {
-      className: "w-32 shrink-0 text-lg font-semibold leading-tight",
-      children: t
-    }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-      className: "flex-1",
-      children: children
-    }, void 0, false), edit && /*#__PURE__*/_jsxDEV("button", {
-      className: "lnk self-start",
-      onClick: () => setEd(ed === k ? null : k),
-      children: ed === k ? "Done" : edit
-    }, void 0, false)]
-  }, void 0, true);
-  return /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("h1", {
-      className: "text-3xl font-bold mb-3",
-      children: "MY PROFILE"
-    }, void 0, false), /*#__PURE__*/_jsxDEV(Row, {
-      t: "PERSONAL INFORMATION",
-      k: "p",
-      edit: "Edit",
-      children: ed === "p" ? /*#__PURE__*/_jsxDEV("div", {
-        className: "grid sm:grid-cols-2 gap-2",
-        children: [["name", "Name"], ["email", "Email"], ["phone", "Phone"], ["loc", "Location"]].map(([k, l]) => /*#__PURE__*/_jsxDEV("label", {
-          className: "text-sm",
-          children: [l, /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            value: p[k],
-            onChange: e => setP({
-              ...p,
-              [k]: e.target.value
-            })
-          }, void 0, false)]
-        }, k, true))
-      }, void 0, false) : /*#__PURE__*/_jsxDEV("div", {
-        className: "grid sm:grid-cols-2 gap-1",
-        children: [/*#__PURE__*/_jsxDEV("div", {
-          children: ["Name: ", p.name]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          children: ["Phone: ", p.phone]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          children: ["Email: ", p.email]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          children: ["Location: ", p.loc]
-        }, void 0, true)]
-      }, void 0, true)
-    }, void 0, false), /*#__PURE__*/_jsxDEV(Row, {
-      t: "RESUME & CV",
-      k: "r",
-      edit: "Upload New",
-      children: [/*#__PURE__*/_jsxDEV("button", {
-        className: "lnk",
-        onClick: () => alert("janedoe_cv.pdf (prototype download)"),
-        children: "janedoe_cv.pdf"
-      }, void 0, false), " (View/Download)", ed === "r" && /*#__PURE__*/_jsxDEV("div", {
-        className: "mt-2",
-        children: /*#__PURE__*/_jsxDEV("input", {
-          type: "file",
-          "aria-label": "Upload resume"
-        }, void 0, false)
-      }, void 0, false)]
-    }, void 0, true), /*#__PURE__*/_jsxDEV(Row, {
-      t: "WORK EXPERIENCE",
-      children: [/*#__PURE__*/_jsxDEV("div", {
-        children: "Sr. UX Designer at TechCorp (2021-Present)"
-      }, void 0, false), /*#__PURE__*/_jsxDEV("ul", {
-        className: "list-disc ml-5",
-        children: [/*#__PURE__*/_jsxDEV("li", {
-          children: "Sr. UX Designer at Coderafters"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("li", {
-          children: "Product Manager at Full Stack Developer"
-        }, void 0, false)]
-      }, void 0, true)]
-    }, void 0, true), /*#__PURE__*/_jsxDEV(Row, {
-      t: "SKILLS",
-      k: "s",
-      edit: "Edit",
-      children: ed === "s" ? /*#__PURE__*/_jsxDEV("input", {
-        className: "inp",
-        "aria-label": "Skills",
-        value: sk,
-        onChange: e => setSk(e.target.value)
-      }, void 0, false) : /*#__PURE__*/_jsxDEV("div", {
-        className: "flex flex-wrap gap-2",
-        children: sk.split(",").map(s => s.trim()).filter(Boolean).map(s => /*#__PURE__*/_jsxDEV("span", {
-          className: "chip",
-          children: s
-        }, s, false))
-      }, void 0, false)
-    }, void 0, false)]
-  }, void 0, true);
+  }) => /*#__PURE__*/React.createElement("section", {
+    className: "flex gap-4 py-4 border-t border-[var(--line)]"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "w-32 shrink-0 text-lg font-semibold leading-tight"
+  }, t), /*#__PURE__*/React.createElement("div", {
+    className: "flex-1"
+  }, children), edit && /*#__PURE__*/React.createElement("button", {
+    className: "lnk self-start",
+    onClick: () => setEd(ed === k ? null : k)
+  }, ed === k ? "Done" : edit));
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", {
+    className: "text-3xl font-bold mb-3"
+  }, "MY PROFILE"), /*#__PURE__*/React.createElement(Row, {
+    t: "PERSONAL INFORMATION",
+    k: "p",
+    edit: "Edit"
+  }, ed === "p" ? /*#__PURE__*/React.createElement("div", {
+    className: "grid sm:grid-cols-2 gap-2"
+  }, [["name", "Name"], ["email", "Email"], ["phone", "Phone"], ["loc", "Location"]].map(([k, l]) => /*#__PURE__*/React.createElement("label", {
+    key: k,
+    className: "text-sm"
+  }, l, /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    value: p[k],
+    onChange: e => setP({
+      ...p,
+      [k]: e.target.value
+    })
+  })))) : /*#__PURE__*/React.createElement("div", {
+    className: "grid sm:grid-cols-2 gap-1"
+  }, /*#__PURE__*/React.createElement("div", null, "Name: ", p.name), /*#__PURE__*/React.createElement("div", null, "Phone: ", p.phone), /*#__PURE__*/React.createElement("div", null, "Email: ", p.email), /*#__PURE__*/React.createElement("div", null, "Location: ", p.loc))), /*#__PURE__*/React.createElement(Row, {
+    t: "RESUME & CV",
+    k: "r",
+    edit: "Upload New"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "lnk",
+    onClick: () => alert("janedoe_cv.pdf (prototype download)")
+  }, "janedoe_cv.pdf"), " (View/Download)", ed === "r" && /*#__PURE__*/React.createElement("div", {
+    className: "mt-2"
+  }, /*#__PURE__*/React.createElement("input", {
+    type: "file",
+    "aria-label": "Upload resume"
+  }))), /*#__PURE__*/React.createElement(Row, {
+    t: "WORK EXPERIENCE"
+  }, /*#__PURE__*/React.createElement("div", null, "Sr. UX Designer at TechCorp (2021-Present)"), /*#__PURE__*/React.createElement("ul", {
+    className: "list-disc ml-5"
+  }, /*#__PURE__*/React.createElement("li", null, "Sr. UX Designer at Coderafters"), /*#__PURE__*/React.createElement("li", null, "Product Manager at Full Stack Developer"))), /*#__PURE__*/React.createElement(Row, {
+    t: "SKILLS",
+    k: "s",
+    edit: "Edit"
+  }, ed === "s" ? /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    "aria-label": "Skills",
+    value: sk,
+    onChange: e => setSk(e.target.value)
+  }) : /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap gap-2"
+  }, sk.split(",").map(s => s.trim()).filter(Boolean).map(s => /*#__PURE__*/React.createElement("span", {
+    key: s,
+    className: "chip"
+  }, s)))));
 }
 function Settings({
   go,
@@ -1812,133 +1453,104 @@ function Settings({
     n,
     t,
     children
-  }) => /*#__PURE__*/_jsxDEV("section", {
-    className: "py-4 border-t border-[var(--line)]",
-    children: [/*#__PURE__*/_jsxDEV("h2", {
-      className: "text-xl font-semibold mb-2",
-      children: [n, ". ", t]
-    }, void 0, true), children]
-  }, void 0, true);
-  return /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV("h1", {
-      className: "text-3xl font-bold mb-3",
-      children: "SETTINGS"
-    }, void 0, false), /*#__PURE__*/_jsxDEV(Sec, {
-      n: "1",
-      t: "ACCOUNT SETTINGS",
-      children: /*#__PURE__*/_jsxDEV("div", {
-        className: "grid gap-2",
-        children: [/*#__PURE__*/_jsxDEV("div", {
-          className: "flex justify-between",
-          children: ["Email: jane.doe@email.com", /*#__PURE__*/_jsxDEV("button", {
-            className: "lnk",
-            onClick: () => alert("Edit email (prototype)"),
-            children: "Edit"
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          className: "flex justify-between",
-          children: ["Password: ••••••••", /*#__PURE__*/_jsxDEV("button", {
-            className: "lnk",
-            onClick: () => go("reset"),
-            children: "Edit"
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          className: "flex justify-between items-center",
-          children: ["Account deactivated", /*#__PURE__*/_jsxDEV(Toggle, {
-            on: deact,
-            set: setDeact,
-            label: "Account deactivated"
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true)
-    }, void 0, false), /*#__PURE__*/_jsxDEV(Sec, {
-      n: "2",
-      t: "NOTIFICATION PREFERENCES",
-      children: /*#__PURE__*/_jsxDEV("div", {
-        className: "grid gap-2",
-        children: [/*#__PURE__*/_jsxDEV("div", {
-          className: "flex justify-between items-center",
-          children: ["New job alerts", /*#__PURE__*/_jsxDEV(Toggle, {
-            on: n1,
-            set: setN1,
-            label: "New job alerts"
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          className: "flex justify-between items-center",
-          children: ["Application Status Updates", /*#__PURE__*/_jsxDEV(Toggle, {
-            on: n2,
-            set: setN2,
-            label: "Application status updates"
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true)
-    }, void 0, false), /*#__PURE__*/_jsxDEV(Sec, {
-      n: "3",
-      t: "STUDY LOAD & SCHEDULE SETTINGS",
-      children: /*#__PURE__*/_jsxDEV("div", {
-        className: "flex flex-wrap gap-4 items-start",
-        children: [/*#__PURE__*/_jsxDEV("label", {
-          className: "card p-3 cursor-pointer flex items-center gap-2",
-          children: [/*#__PURE__*/_jsxDEV(I, {
-            n: "up"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("span", {
-            className: "lnk",
-            children: "Update PDF/Scan Study Schedule"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("input", {
-            type: "file",
-            accept: ".pdf,image/*",
-            className: "sr-only",
-            onChange: e => setFile(e.target.files[0]?.name || "")
-          }, void 0, false)]
-        }, void 0, true), file && /*#__PURE__*/_jsxDEV("span", {
-          className: "self-center text-sm",
-          children: ["Uploaded: ", file]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-          className: "flex-1 min-w-[12rem]",
-          children: [eav ? /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            "aria-label": "Availability",
-            value: av,
-            onChange: e => setAv(e.target.value)
-          }, void 0, false) : /*#__PURE__*/_jsxDEV("div", {
-            className: "card p-2",
-            children: av
-          }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-            className: "lnk mt-1",
-            onClick: () => setEav(!eav),
-            children: eav ? "Save Availability Times" : "Edit Availability Times"
-          }, void 0, false)]
-        }, void 0, true)]
-      }, void 0, true)
-    }, void 0, false), /*#__PURE__*/_jsxDEV(Sec, {
-      n: "4",
-      t: "PRIVACY & DATA",
-      children: /*#__PURE__*/_jsxDEV("div", {
-        className: "flex flex-wrap gap-6 items-center",
-        children: [/*#__PURE__*/_jsxDEV("span", {
-          className: "flex items-center gap-3",
-          children: ["Profile Visibility", /*#__PURE__*/_jsxDEV(Toggle, {
-            on: vis,
-            set: setVis,
-            label: "Profile visibility"
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-          className: "lnk",
-          onClick: () => alert("Preparing your data download (prototype)"),
-          children: "Download My Data"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-          className: "lnk",
-          onClick: () => {
-            if (confirm("Delete account?")) {
-              setUser(false);
-              go("home");
-            }
-          },
-          children: "Delete Account"
-        }, void 0, false)]
-      }, void 0, true)
-    }, void 0, false)]
-  }, void 0, true);
+  }) => /*#__PURE__*/React.createElement("section", {
+    className: "py-4 border-t border-[var(--line)]"
+  }, /*#__PURE__*/React.createElement("h2", {
+    className: "text-xl font-semibold mb-2"
+  }, n, ". ", t), children);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("h1", {
+    className: "text-3xl font-bold mb-3"
+  }, "SETTINGS"), /*#__PURE__*/React.createElement(Sec, {
+    n: "1",
+    t: "ACCOUNT SETTINGS"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid gap-2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex justify-between"
+  }, "Email: jane.doe@email.com", /*#__PURE__*/React.createElement("button", {
+    className: "lnk",
+    onClick: () => alert("Edit email (prototype)")
+  }, "Edit")), /*#__PURE__*/React.createElement("div", {
+    className: "flex justify-between"
+  }, "Password: ••••••••", /*#__PURE__*/React.createElement("button", {
+    className: "lnk",
+    onClick: () => go("reset")
+  }, "Edit")), /*#__PURE__*/React.createElement("div", {
+    className: "flex justify-between items-center"
+  }, "Account deactivated", /*#__PURE__*/React.createElement(Toggle, {
+    on: deact,
+    set: setDeact,
+    label: "Account deactivated"
+  })))), /*#__PURE__*/React.createElement(Sec, {
+    n: "2",
+    t: "NOTIFICATION PREFERENCES"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "grid gap-2"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex justify-between items-center"
+  }, "New job alerts", /*#__PURE__*/React.createElement(Toggle, {
+    on: n1,
+    set: setN1,
+    label: "New job alerts"
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "flex justify-between items-center"
+  }, "Application Status Updates", /*#__PURE__*/React.createElement(Toggle, {
+    on: n2,
+    set: setN2,
+    label: "Application status updates"
+  })))), /*#__PURE__*/React.createElement(Sec, {
+    n: "3",
+    t: "STUDY LOAD & SCHEDULE SETTINGS"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap gap-4 items-start"
+  }, /*#__PURE__*/React.createElement("label", {
+    className: "card p-3 cursor-pointer flex items-center gap-2"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "up"
+  }), /*#__PURE__*/React.createElement("span", {
+    className: "lnk"
+  }, "Update PDF/Scan Study Schedule"), /*#__PURE__*/React.createElement("input", {
+    type: "file",
+    accept: ".pdf,image/*",
+    className: "sr-only",
+    onChange: e => setFile(e.target.files[0]?.name || "")
+  })), file && /*#__PURE__*/React.createElement("span", {
+    className: "self-center text-sm"
+  }, "Uploaded: ", file), /*#__PURE__*/React.createElement("div", {
+    className: "flex-1 min-w-[12rem]"
+  }, eav ? /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    "aria-label": "Availability",
+    value: av,
+    onChange: e => setAv(e.target.value)
+  }) : /*#__PURE__*/React.createElement("div", {
+    className: "card p-2"
+  }, av), /*#__PURE__*/React.createElement("button", {
+    className: "lnk mt-1",
+    onClick: () => setEav(!eav)
+  }, eav ? "Save Availability Times" : "Edit Availability Times")))), /*#__PURE__*/React.createElement(Sec, {
+    n: "4",
+    t: "PRIVACY & DATA"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap gap-6 items-center"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "flex items-center gap-3"
+  }, "Profile Visibility", /*#__PURE__*/React.createElement(Toggle, {
+    on: vis,
+    set: setVis,
+    label: "Profile visibility"
+  })), /*#__PURE__*/React.createElement("button", {
+    className: "lnk",
+    onClick: () => alert("Preparing your data download (prototype)")
+  }, "Download My Data"), /*#__PURE__*/React.createElement("button", {
+    className: "lnk",
+    onClick: () => {
+      if (confirm("Delete account?")) {
+        setUser(false);
+        go("home");
+      }
+    }
+  }, "Delete Account"))));
 }
 function Chat({
   setTab
@@ -2015,126 +1627,107 @@ function Chat({
       }]);
     }, 600);
   };
-  return /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [open && /*#__PURE__*/_jsxDEV("section", {
-      role: "dialog",
-      "aria-label": "JOB-FILTER AI chat",
-      className: "card fixed z-40 right-4 flex flex-col w-[22rem] max-w-[calc(100vw-2rem)] h-[30rem] max-h-[calc(100vh-7rem)] shadow-xl",
-      style: {
-        bottom: "calc(4.75rem + env(safe-area-inset-bottom,0px))"
-      },
-      children: [/*#__PURE__*/_jsxDEV("header", {
-        className: "flex items-center gap-2 px-3 py-2 border-b border-[var(--line)]",
-        children: [/*#__PURE__*/_jsxDEV(I, {
-          n: "bot",
-          s: 22,
-          c: "text-[var(--accent)]"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("h2", {
-          className: "text-lg font-semibold flex-1",
-          children: "JOB-FILTER AI"
-        }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-          onClick: () => setOpen(false),
-          "aria-label": "Close chat",
-          children: /*#__PURE__*/_jsxDEV(I, {
-            n: "x",
-            s: 18
-          }, void 0, false)
-        }, void 0, false)]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-        className: "flex-1 overflow-y-auto p-3 space-y-2",
-        "aria-live": "polite",
-        children: [msgs.map((m, i) => /*#__PURE__*/_jsxDEV("div", {
-          className: m.b ? "flex" : "flex justify-end",
-          children: /*#__PURE__*/_jsxDEV("div", {
-            className: "max-w-[85%] rounded-xl px-3 py-2 text-[.95rem]",
-            style: m.b ? {
-              background: "var(--chip)"
-            } : {
-              background: "var(--accent)",
-              color: "var(--accent-fg)"
-            },
-            children: [m.t, m.a && /*#__PURE__*/_jsxDEV("div", {
-              className: "mt-2",
-              children: /*#__PURE__*/_jsxDEV("button", {
-                className: "btn-o text-sm",
-                onClick: () => {
-                  setTab(m.a[1]);
-                  setOpen(false);
-                },
-                children: m.a[0]
-              }, void 0, false)
-            }, void 0, false)]
-          }, void 0, true)
-        }, i, false)), typing && /*#__PURE__*/_jsxDEV("div", {
-          className: "flex",
-          children: /*#__PURE__*/_jsxDEV("div", {
-            className: "rounded-xl px-3 py-2 mut",
-            style: {
-              background: "var(--chip)"
-            },
-            children: "Typing…"
-          }, void 0, false)
-        }, void 0, false), /*#__PURE__*/_jsxDEV("div", {
-          ref: end
-        }, void 0, false)]
-      }, void 0, true), /*#__PURE__*/_jsxDEV("div", {
-        className: "flex flex-wrap gap-2 px-3 pb-2",
-        children: ["Help with schedule", "Change notification settings", "Other..."].map(c => /*#__PURE__*/_jsxDEV("button", {
-          className: "btn-o !rounded-full text-sm",
-          onClick: () => send(c),
-          children: c
-        }, c, false))
-      }, void 0, false), /*#__PURE__*/_jsxDEV("form", {
-        className: "flex items-center gap-2 p-3 border-t border-[var(--line)]",
-        onSubmit: e => {
-          e.preventDefault();
-          send(txt);
-        },
-        children: [/*#__PURE__*/_jsxDEV("label", {
-          className: "flex-1",
-          children: [/*#__PURE__*/_jsxDEV("span", {
-            className: "sr-only",
-            children: "Message"
-          }, void 0, false), /*#__PURE__*/_jsxDEV("input", {
-            className: "inp",
-            placeholder: "Ask me anything...",
-            value: txt,
-            onChange: e => setTxt(e.target.value)
-          }, void 0, false)]
-        }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-          type: "button",
-          "aria-label": "Voice input",
-          onClick: () => alert("Voice input isn’t available in this prototype."),
-          children: /*#__PURE__*/_jsxDEV(I, {
-            n: "mic",
-            s: 20
-          }, void 0, false)
-        }, void 0, false), /*#__PURE__*/_jsxDEV("button", {
-          type: "submit",
-          className: "btn !px-3",
-          "aria-label": "Send message",
-          children: /*#__PURE__*/_jsxDEV(I, {
-            n: "send",
-            s: 18
-          }, void 0, false)
-        }, void 0, false)]
-      }, void 0, true)]
-    }, void 0, true), /*#__PURE__*/_jsxDEV("button", {
-      onClick: () => setOpen(!open),
-      "aria-expanded": open,
-      "aria-label": open ? "Close AI chat" : "Open AI chat",
-      className: "fixed z-40 right-4 flex items-center gap-1.5 rounded-full px-4 py-3 font-bold shadow-lg",
-      style: {
-        bottom: "calc(1rem + env(safe-area-inset-bottom,0px))",
-        background: "var(--accent)",
-        color: "var(--accent-fg)"
-      },
-      children: ["AI", /*#__PURE__*/_jsxDEV(I, {
-        n: "star",
-        s: 16
-      }, void 0, false)]
-    }, void 0, true)]
-  }, void 0, true);
+  return /*#__PURE__*/React.createElement(React.Fragment, null, open && /*#__PURE__*/React.createElement("section", {
+    role: "dialog",
+    "aria-label": "JOB-FILTER AI chat",
+    className: "card fixed z-40 right-4 flex flex-col w-[22rem] max-w-[calc(100vw-2rem)] h-[30rem] max-h-[calc(100vh-7rem)] shadow-xl",
+    style: {
+      bottom: "calc(4.75rem + env(safe-area-inset-bottom,0px))"
+    }
+  }, /*#__PURE__*/React.createElement("header", {
+    className: "flex items-center gap-2 px-3 py-2 border-b border-[var(--line)]"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "bot",
+    s: 22,
+    c: "text-[var(--accent)]"
+  }), /*#__PURE__*/React.createElement("h2", {
+    className: "text-lg font-semibold flex-1"
+  }, "JOB-FILTER AI"), /*#__PURE__*/React.createElement("button", {
+    onClick: () => setOpen(false),
+    "aria-label": "Close chat"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "x",
+    s: 18
+  }))), /*#__PURE__*/React.createElement("div", {
+    className: "flex-1 overflow-y-auto p-3 space-y-2",
+    "aria-live": "polite"
+  }, msgs.map((m, i) => /*#__PURE__*/React.createElement("div", {
+    key: i,
+    className: m.b ? "flex" : "flex justify-end"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "max-w-[85%] rounded-xl px-3 py-2 text-[.95rem]",
+    style: m.b ? {
+      background: "var(--chip)"
+    } : {
+      background: "var(--accent)",
+      color: "var(--accent-fg)"
+    }
+  }, m.t, m.a && /*#__PURE__*/React.createElement("div", {
+    className: "mt-2"
+  }, /*#__PURE__*/React.createElement("button", {
+    className: "btn-o text-sm",
+    onClick: () => {
+      setTab(m.a[1]);
+      setOpen(false);
+    }
+  }, m.a[0]))))), typing && /*#__PURE__*/React.createElement("div", {
+    className: "flex"
+  }, /*#__PURE__*/React.createElement("div", {
+    className: "rounded-xl px-3 py-2 mut",
+    style: {
+      background: "var(--chip)"
+    }
+  }, "Typing…")), /*#__PURE__*/React.createElement("div", {
+    ref: end
+  })), /*#__PURE__*/React.createElement("div", {
+    className: "flex flex-wrap gap-2 px-3 pb-2"
+  }, ["Help with schedule", "Change notification settings", "Other..."].map(c => /*#__PURE__*/React.createElement("button", {
+    key: c,
+    className: "btn-o !rounded-full text-sm",
+    onClick: () => send(c)
+  }, c))), /*#__PURE__*/React.createElement("form", {
+    className: "flex items-center gap-2 p-3 border-t border-[var(--line)]",
+    onSubmit: e => {
+      e.preventDefault();
+      send(txt);
+    }
+  }, /*#__PURE__*/React.createElement("label", {
+    className: "flex-1"
+  }, /*#__PURE__*/React.createElement("span", {
+    className: "sr-only"
+  }, "Message"), /*#__PURE__*/React.createElement("input", {
+    className: "inp",
+    placeholder: "Ask me anything...",
+    value: txt,
+    onChange: e => setTxt(e.target.value)
+  })), /*#__PURE__*/React.createElement("button", {
+    type: "button",
+    "aria-label": "Voice input",
+    onClick: () => alert("Voice input isn’t available in this prototype.")
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "mic",
+    s: 20
+  })), /*#__PURE__*/React.createElement("button", {
+    type: "submit",
+    className: "btn !px-3",
+    "aria-label": "Send message"
+  }, /*#__PURE__*/React.createElement(I, {
+    n: "send",
+    s: 18
+  })))), /*#__PURE__*/React.createElement("button", {
+    onClick: () => setOpen(!open),
+    "aria-expanded": open,
+    "aria-label": open ? "Close AI chat" : "Open AI chat",
+    className: "fixed z-40 right-4 flex items-center gap-1.5 rounded-full px-4 py-3 font-bold shadow-lg",
+    style: {
+      bottom: "calc(1rem + env(safe-area-inset-bottom,0px))",
+      background: "var(--accent)",
+      color: "var(--accent-fg)"
+    }
+  }, "AI", /*#__PURE__*/React.createElement(I, {
+    n: "star",
+    s: 16
+  })));
 }
 window.alert = m => window.dispatchEvent(new CustomEvent("toast", {
   detail: m
@@ -2151,15 +1744,14 @@ function Toast() {
     window.addEventListener("toast", h);
     return () => window.removeEventListener("toast", h);
   }, []);
-  return m ? /*#__PURE__*/_jsxDEV("div", {
+  return m ? /*#__PURE__*/React.createElement("div", {
     role: "status",
     className: "fixed left-1/2 -translate-x-1/2 bottom-6 z-[60] px-4 py-2 rounded-lg shadow-lg max-w-[90vw]",
     style: {
       background: "var(--fg)",
       color: "var(--bg)"
-    },
-    children: m
-  }, void 0, false) : null;
+    }
+  }, m) : null;
 }
 function App() {
   const [screen, setScreen] = useState("home"),
@@ -2199,7 +1791,7 @@ function App() {
       go("signin");
     }
   };
-  const modal = job && /*#__PURE__*/_jsxDEV(Modal, {
+  const modal = job && /*#__PURE__*/React.createElement(Modal, {
     job: job,
     user: user,
     onClose: () => setJob(null),
@@ -2212,53 +1804,46 @@ function App() {
       });
       alert("Saved “" + job.t + "” to your list.");
     }
-  }, void 0, false);
-  if (screen === "app") return /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV(AppShell, {
-      tab: tab,
-      setTab: setTab,
-      go: go,
-      out: () => {
-        setUser(false);
-        setTab("dash");
-        go("home");
-        alert("You’ve been signed out.");
-      },
-      children: [tab === "dash" && /*#__PURE__*/_jsxDEV(Dash, {
-        setTab: setTab,
-        total: 28 + apps.length - APPS.length
-      }, void 0, false), tab === "matches" && /*#__PURE__*/_jsxDEV(Matches, {
-        openJob: setJob
-      }, void 0, false), tab === "apps" && /*#__PURE__*/_jsxDEV(Apps, {
-        apps: apps,
-        openJob: setJob
-      }, void 0, false), tab === "profile" && /*#__PURE__*/_jsxDEV(Profile, {}, void 0, false), tab === "settings" && /*#__PURE__*/_jsxDEV(Settings, {
-        go: go,
-        setUser: setUser
-      }, void 0, false)]
-    }, void 0, true), /*#__PURE__*/_jsxDEV(Chat, {
-      setTab: setTab
-    }, void 0, false), modal]
-  }, void 0, true);
-  if (screen === "about" || screen === "help") return /*#__PURE__*/_jsxDEV(Info, {
+  });
+  if (screen === "app") return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(AppShell, {
+    tab: tab,
+    setTab: setTab,
+    go: go,
+    out: () => {
+      setUser(false);
+      setTab("dash");
+      go("home");
+      alert("You’ve been signed out.");
+    }
+  }, tab === "dash" && /*#__PURE__*/React.createElement(Dash, {
+    setTab: setTab,
+    total: 28 + apps.length - APPS.length
+  }), tab === "matches" && /*#__PURE__*/React.createElement(Matches, {
+    openJob: setJob
+  }), tab === "apps" && /*#__PURE__*/React.createElement(Apps, {
+    apps: apps,
+    openJob: setJob
+  }), tab === "profile" && /*#__PURE__*/React.createElement(Profile, null), tab === "settings" && /*#__PURE__*/React.createElement(Settings, {
+    go: go,
+    setUser: setUser
+  })), /*#__PURE__*/React.createElement(Chat, {
+    setTab: setTab
+  }), modal);
+  if (screen === "about" || screen === "help") return /*#__PURE__*/React.createElement(Info, {
     page: screen,
     go: go,
     user: user
-  }, void 0, false);
-  if (screen === "home") return /*#__PURE__*/_jsxDEV(_Fragment, {
-    children: [/*#__PURE__*/_jsxDEV(Home, {
-      go: go,
-      openJob: setJob,
-      user: user
-    }, void 0, false), modal]
-  }, void 0, true);
-  return /*#__PURE__*/_jsxDEV(Auth, {
+  });
+  if (screen === "home") return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Home, {
+    go: go,
+    openJob: setJob,
+    user: user
+  }), modal);
+  return /*#__PURE__*/React.createElement(Auth, {
     page: screen,
     go: go,
     job: pending,
     setUser: setUser
-  }, void 0, false);
+  });
 }
-ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/_jsxDEV(_Fragment, {
-  children: [/*#__PURE__*/_jsxDEV(App, {}, void 0, false), /*#__PURE__*/_jsxDEV(Toast, {}, void 0, false)]
-}, void 0, true));
+ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(App, null), /*#__PURE__*/React.createElement(Toast, null)));
